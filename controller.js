@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
-require("dotenv").config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
