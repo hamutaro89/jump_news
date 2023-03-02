@@ -1,0 +1,23 @@
+{
+  "name": "jump_news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamutaro89/jump_news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamutaro89/jump_news/issues"
+  },
+  "homepage": "https://github.com/hamutaro89/jump_news#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
