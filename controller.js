@@ -62,9 +62,9 @@ async function matchGoogle(req, res){
     for(let d of data){
       try{     
         console.log(d);
-        await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 90000, waitUntil: "networkidle2" }); 
+        await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 100000, waitUntil: "networkidle2" }); 
         try{
-          await page.waitForSelector('.QXROIe', { timeout: 1000 }).then( async () => {
+          await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {
             result.push({
               _id: d._id,
               google: true
@@ -106,9 +106,9 @@ async function matchPetal(req, res){
     for(let d of data){
       try{
         console.log(d);
-        await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 90000, waitUntil: "networkidle2" }); 
+        await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 100000, waitUntil: "networkidle2" }); 
         try{
-          await page.waitForSelector('.news-card', { timeout: 1000 }).then( async () => {
+          await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
             result.push({
               _id: d._id,
               petal: true
