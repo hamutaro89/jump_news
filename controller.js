@@ -60,7 +60,8 @@ async function matchGoogle(req, res){
   try {
     const page = await browser.newPage();
     for(let d of data){
-      try{        
+      try{     
+        console.log(d);
         await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 90000, waitUntil: "networkidle2" }); 
         try{
           await page.waitForSelector('.QXROIe', { timeout: 1000 }).then( async () => {
@@ -103,7 +104,8 @@ async function matchPetal(req, res){
   try {
     const page = await browser.newPage();
     for(let d of data){
-      try{        
+      try{
+        console.log(d);
         await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 90000, waitUntil: "networkidle2" }); 
         try{
           await page.waitForSelector('.news-card', { timeout: 1000 }).then( async () => {
