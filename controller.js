@@ -126,7 +126,7 @@ async function matchPetal(req, res){
     }    
   } catch (error) {
     console.log(error);
-    res.send("Error", error);
+    res.status(400).send("Error", error);
   } finally{
     await browser.close();
   }
@@ -154,11 +154,11 @@ async function straitsTimes(req, res){
       });
     } catch (error) {
       console.log(error);
-      res.send("Error", error);
+      res.status(400).send("Error", error);
     }  
   } catch (error) {
     console.log(error);
-    res.send("Error", error);
+    res.status(400).send("Error", error);
   } finally{
     await browser.close();
   }
