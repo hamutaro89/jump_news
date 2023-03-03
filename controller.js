@@ -59,21 +59,29 @@ async function matchGoogle(req, res){
   let result = [];
   try {
     const page = await browser.newPage();
+    await page.setViewport({ width: 800, height: 1200 });
     for(let d of data){
       try{     
         console.log(d);
         await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 100000, waitUntil: "networkidle2" }); 
         try{
           await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {
+            const screenshot = await page.screenshot({
+              type: 'jpeg',
+              quality: 60
+            });
+            const imageData = screenshot.toString('base64');          
             result.push({
               _id: d._id,
-              google: true
+              google: true,
+              screenshot: imageData
             })
           });
         }catch(err){
           result.push({
             _id: d._id,
-            google: false
+            google: false,
+            screenshot: null
           }) 
         }
       }catch(err){
@@ -146,6 +154,7 @@ async function straitsTimes(req, res){
   let result = null;
   try {
     const page = await browser.newPage();
+    console.log("start straitsTimes")
     try {
       await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 90000, waitUntil: "networkidle2" });
       result = await page.evaluate(() => {
