@@ -6,14 +6,14 @@ const port = 3000;
 
 app.use(express.json());
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.status(200).send('Hello World!');
 });
 
 app.get('/scrapeUrl', scrapeLogic);
 
 app.post('/scrape', (req, res) => {
   console.log(req.body);
-  res.send(req.body);
+  res.status(200).send(req.body);
 });
 
 app.post('/straitsTimes', straitsTimes);

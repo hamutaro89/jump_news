@@ -35,8 +35,7 @@ const scrapeLogic = async function(req, res){
     console.log(textSelector);
     const fullTitle = await textSelector.evaluate(el => el.textContent);
  
-    res.send(fullTitle);
-    res.status(200);
+    res.status(200).send(fullTitle);
   } catch (error) {
     console.log(error);
     res.send("Error", error);
