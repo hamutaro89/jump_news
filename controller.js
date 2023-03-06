@@ -38,7 +38,7 @@ const scrapeLogic = async function(req, res){
     res.status(200).send(fullTitle);
   } catch (error) {
     console.log(error);
-    res.send("Error", error);
+    res.status(200).send("Error", error);
   } finally{
     await browser.close();
   }
