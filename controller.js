@@ -62,7 +62,7 @@ async function matchGoogle(req, res){
     for(let d of data){
       try{     
         console.log(d);
-        await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 150000, waitUntil: "networkidle2" }); 
+        await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 300000, waitUntil: "networkidle2" }); 
         try{
           await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {
             const screenshot = await page.screenshot({
@@ -113,7 +113,7 @@ async function matchPetal(req, res){
     for(let d of data){
       try{
         console.log(d);
-        await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 150000, waitUntil: "networkidle2" }); 
+        await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 300000, waitUntil: "networkidle2" }); 
         try{
           await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
             result.push({
@@ -155,7 +155,7 @@ async function straitsTimes(req, res){
     const page = await browser.newPage();
     console.log("start straitsTimes")
     try {
-      await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 150000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 180000, waitUntil: "networkidle2" });
       result = await page.evaluate(() => {
         const element = document.querySelector('.block-block-most-popular');
         return element.outerHTML;
@@ -173,4 +173,37 @@ async function straitsTimes(req, res){
   res.status(200).send(result);
 }
 
-export { scrapeLogic, matchGoogle, matchPetal, straitsTimes };
+async function zaobao(req, res){
+  const browser = await puppeteer.launch({
+    args: [
+      "--disable-setuid-sandbox",
+      "--no-sandbox",
+      "--single-process",
+      "--no-zygote",
+    ],
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
+  });
+  let result = null;
+  try {
+    const page = await browser.newPage();
+    console.log("start zaobao")
+    try {
+      await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 300000, waitUntil: "networkidle2" });
+      result = await page.evaluate(() => {
+        const element = document.querySelector('#taxonomy-term-1');
+        return element.outerHTML;
+      });
+    } catch (error) {
+      console.log(error);
+      res.status(400).send("Error", error);
+    }  
+  } catch (error) {
+    console.log(error);
+    res.status(400).send("Error", error);
+  } finally{
+    await browser.close();
+  }
+  res.status(200).send(result);
+}
+
+export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
