@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
 import dotenv from 'dotenv';
+import fs from 'fs';
 dotenv.config();
 
 const scrapeLogic = async function(req, res){
@@ -84,7 +85,7 @@ async function matchGoogle(req, res){
           }) 
         }
       }catch(err){
-        console.log(err)   
+        console.log(err)
       }
     }    
   } catch (error) {
@@ -161,7 +162,11 @@ async function straitsTimes(req, res){
         const element = document.querySelector('.block-block-most-popular');
         return element.outerHTML;
       });
-      console.log(result);
+      fs.writeFile('./public/straitstimes.txt', result, err => {
+        if (err) {
+          console.error(err);
+        }
+      });
     } catch (error) {
       console.log(error);
       res.status(400).send("Error", error);
