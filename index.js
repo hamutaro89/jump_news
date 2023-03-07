@@ -1,27 +1,13 @@
 import express from 'express'
 import { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao } from './controller.js';
-import fs from 'fs';
+
 const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(express.static('public'));
 app.get('/', (req, res) => {
-  fs.writeFile('./test.txt', 'content234234', err => {
-    if (err) {
-      console.error(err);
-    }
-    // file written successfully
-  });
   res.status(200).send('Hello World!');
-});
-
-app.get('/read', (req, res) => {
-  fs.readFile('./test.txt', 'utf8', (err, data) => {
-    if (err) {
-      console.error(err);
-    }    
-    res.status(200).send(data);
-  });  
 });
 
 app.get('/scrapeUrl', scrapeLogic);
