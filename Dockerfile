@@ -3,12 +3,15 @@ USER node
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
 
-WORKDIR /home/node
-RUN chown -R node.node /home/node
+RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
+WORKDIR /home/node/app
+USER node
+
 COPY package*.json ./
 
 RUN npm ci
 
 COPY . .
+RUN chown -R node:node /home/node/app/public
 EXPOSE 3000
 CMD [ "node", "index.js" ]
