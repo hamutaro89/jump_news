@@ -65,7 +65,7 @@ async function matchGoogle(req, res){
         await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
         const screenshot = await page.screenshot({
           type: 'jpeg',
-          quality: 60
+          quality: 70
         });
         const imageData = screenshot.toString('base64');
         try{
