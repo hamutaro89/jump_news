@@ -199,6 +199,11 @@ async function zaobao(req, res){
         const element = document.querySelector('#taxonomy-term-1');
         return element.outerHTML;
       });
+      await fs.writeFile('./public/zaobao.txt', result, err => {
+        if (err) {
+          console.error(err);
+        }
+      });
     } catch (error) {
       console.log(error);
       res.status(400).send("Error", error);

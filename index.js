@@ -17,8 +17,8 @@ app.post('/scrape', (req, res) => {
   res.status(200).send(req.body);
 });
 
-app.post('/straitsTimes', straitsTimes);
-app.post('/zaobao', zaobao);
+app.get('/straitsTimes', straitsTimes);
+app.get('/zaobao', zaobao);
 app.post('/matchGoogle', matchGoogle);
 app.post('/matchPetal', matchPetal);
 
