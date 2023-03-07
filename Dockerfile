@@ -5,7 +5,6 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 
 WORKDIR /home/node
 COPY package*.json ./
-RUN npm run config set unsafe-perm true
 RUN npm ci
 COPY . .
 EXPOSE 3000
