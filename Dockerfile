@@ -6,6 +6,6 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 WORKDIR /home/node
 COPY package*.json ./
 RUN npm ci
-COPY  --chown=node:node . .
+COPY --chown=node:node . .
 EXPOSE 3000
 CMD [ "node", "index.js" ]
