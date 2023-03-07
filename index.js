@@ -6,7 +6,7 @@ const port = 3000;
 
 app.use(express.json());
 app.get('/', (req, res) => {
-  fs.writeFile('./test.txt', 'content', err => {
+  fs.writeFile('./test.txt', 'content234234', err => {
     if (err) {
       console.error(err);
     }
