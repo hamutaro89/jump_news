@@ -39,7 +39,7 @@ const scrapeLogic = async function(req, res){
     res.status(200).send(fullTitle);
   } catch (error) {
     console.log(error);
-    res.status(200).send("Error", error);
+    res.status(400).send(error);
   } finally{
     await browser.close();
   }
@@ -61,7 +61,7 @@ async function matchGoogle(req, res){
     const page = await browser.newPage();
     await page.setViewport({ width: 800, height: 1200 });
     for(let d of data){
-      try{     
+      try{
         console.log(d);
         await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
         const screenshot = await page.screenshot({
@@ -84,17 +84,17 @@ async function matchGoogle(req, res){
             screenshot: imageData
           }) 
         }
+        await fs.writeFile('./public/matchGoogle.txt', result);
       }catch(err){
         console.log(err)   
       }
     }    
   } catch (error) {
     console.log(error);
-    res.status(400).send("Error", error);
+    res.status(400).send(error);
   } finally{
     await browser.close();
   }
-  res.status(200).send(result);
 }
 
 async function matchPetal(req, res){
@@ -128,17 +128,17 @@ async function matchPetal(req, res){
             petal: false
           }) 
         }
+        await fs.writeFile('./public/matchPetal.txt', result);
       }catch(err){
         console.log(err)   
       }
     }    
   } catch (error) {
     console.log(error);
-    res.status(400).send("Error", error);
+    res.status(400).send(error);
   } finally{
     await browser.close();
   }
-  res.status(200).send(result);
 }
 
 async function straitsTimes(req, res){
@@ -161,22 +161,17 @@ async function straitsTimes(req, res){
         const element = document.querySelector('.block-block-most-popular');
         return element.outerHTML;
       });
-      await fs.writeFile('./public/straitstimes.txt', result, err => {
-        if (err) {
-          console.error(err);
-        }
-      });
+      await fs.writeFile('./public/straitstimes.txt', result);
     } catch (error) {
       console.log(error);
-      res.status(400).send("Error", error);
+      res.status(400).send(error);
     }  
   } catch (error) {
     console.log(error);
-    res.status(400).send("Error", error);
+    res.status(400).send(error);
   } finally{
     await browser.close();
   }
-  res.status(200).send(result);
 }
 
 async function zaobao(req, res){
@@ -199,22 +194,17 @@ async function zaobao(req, res){
         const element = document.querySelector('#taxonomy-term-1');
         return element.outerHTML;
       });
-      await fs.writeFile('./public/zaobao.txt', result, err => {
-        if (err) {
-          console.error(err);
-        }
-      });
+      await fs.writeFile('./public/zaobao.txt', result);
     } catch (error) {
       console.log(error);
-      res.status(400).send("Error", error);
+      res.status(400).send(error);
     }  
   } catch (error) {
     console.log(error);
-    res.status(400).send("Error", error);
+    res.status(400).send(error);
   } finally{
     await browser.close();
   }
-  res.status(200).send(result);
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
