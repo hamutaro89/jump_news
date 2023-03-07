@@ -141,6 +141,7 @@ async function matchPetal(req, res){
 }
 
 async function straitsTimes(req, res){
+  console.log(process.env.PUPPETEER_PATH);
   const browser = await puppeteer.launch({
     args: [
       "--disable-setuid-sandbox",
@@ -160,6 +161,7 @@ async function straitsTimes(req, res){
         const element = document.querySelector('.block-block-most-popular');
         return element.outerHTML;
       });
+      console.log(result);
     } catch (error) {
       console.log(error);
       res.status(400).send("Error", error);
