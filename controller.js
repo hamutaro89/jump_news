@@ -84,7 +84,11 @@ async function matchGoogle(req, res){
             screenshot: imageData
           }) 
         }
-        await fs.writeFile('./public/matchGoogle.txt', result);
+        await fs.writeFile('./public/matchGoogle.txt', result, err => {
+          if (err) {
+            console.error(err);
+          }
+        });
       }catch(err){
         console.log(err)   
       }
@@ -128,7 +132,11 @@ async function matchPetal(req, res){
             petal: false
           }) 
         }
-        await fs.writeFile('./public/matchPetal.txt', result);
+        await fs.writeFile('./public/matchPetal.txt', result, err => {
+          if (err) {
+            console.error(err);
+          }
+        });
       }catch(err){
         console.log(err)   
       }
@@ -142,6 +150,7 @@ async function matchPetal(req, res){
 }
 
 async function straitsTimes(req, res){
+  console.log('starting');
   const browser = await puppeteer.launch({
     args: [
       "--disable-setuid-sandbox",
@@ -152,26 +161,24 @@ async function straitsTimes(req, res){
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   let result = null;
+  const page = await browser.newPage();
+  console.log("start straitsTimes")
   try {
-    const page = await browser.newPage();
-    console.log("start straitsTimes")
-    try {
-      await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 180000, waitUntil: "networkidle2" });
-      result = await page.evaluate(() => {
-        const element = document.querySelector('.block-block-most-popular');
-        return element.outerHTML;
-      });
-      await fs.writeFile('./public/straitstimes.txt', result);
-    } catch (error) {
-      console.log(error);
-      res.status(400).send(error);
-    }  
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 180000, waitUntil: "networkidle2" });
+    result = await page.evaluate(() => {
+      const element = document.querySelector('.block-block-most-popular');
+      return element.outerHTML;
+    });
+    await fs.writeFile('./public/straitstimes.txt', result, err => {
+      if (err) {
+        console.error(err);
+      }
+    });
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
-  } finally{
-    await browser.close();
-  }
+  }  
+  await browser.close();  
 }
 
 async function zaobao(req, res){
@@ -185,26 +192,26 @@ async function zaobao(req, res){
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   let result = null;
+
+  const page = await browser.newPage();
+  console.log("start zaobao")
   try {
-    const page = await browser.newPage();
-    console.log("start zaobao")
-    try {
-      await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 500000, waitUntil: "networkidle2" });
-      result = await page.evaluate(() => {
-        const element = document.querySelector('#taxonomy-term-1');
-        return element.outerHTML;
-      });
-      await fs.writeFile('./public/zaobao.txt', result);
-    } catch (error) {
-      console.log(error);
-      res.status(400).send(error);
-    }  
+    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 500000, waitUntil: "networkidle2" });
+    result = await page.evaluate(() => {
+      const element = document.querySelector('#taxonomy-term-1');
+      return element.outerHTML;
+    });
+    await fs.writeFile('./public/zaobao.txt', result, err => {
+      if (err) {
+        console.error(err);
+      }
+    });
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
-  } finally{
-    await browser.close();
-  }
+  }  
+
+  await browser.close();  
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
