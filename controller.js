@@ -63,7 +63,7 @@ async function matchGoogle(req, res){
   for(let d of data){
     try{
       console.log(d);
-      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 60000, waitUntil: "networkidle2" }); 
+      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
       const screenshot = await page.screenshot({
         type: 'jpeg',
         quality: 70
@@ -114,7 +114,7 @@ async function matchPetal(req, res){
   for(let d of data){
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 60000, waitUntil: "networkidle2" }); 
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
       try{
         await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
           result.push({
@@ -156,7 +156,7 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   console.log("start straitsTimes")
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 60000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 200000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -188,7 +188,7 @@ async function zaobao(req, res){
   const page = await browser.newPage();
   console.log("start zaobao")
   try {
-    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 60000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 200000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
       const element = document.querySelector('#taxonomy-term-1');
       return element.outerHTML;
