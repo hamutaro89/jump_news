@@ -64,7 +64,7 @@ async function matchGoogle(req, res){
   for(let d of data){
     try{
       console.log(d);
-      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" }); 
+      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" }); 
       const screenshot = await page.screenshot({
         type: 'jpeg',
         quality: 70
@@ -116,7 +116,7 @@ async function matchPetal(req, res){
   for(let d of data){
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" }); 
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" }); 
       try{
         await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
           result.push({
