@@ -43,6 +43,7 @@ const scrapeLogic = async function(req, res){
   } finally{
     await browser.close();
   }
+  res.status(200).send();
 };
 
 async function matchGoogle(req, res){
@@ -96,6 +97,7 @@ async function matchGoogle(req, res){
       console.error(err);
     }
   });
+  res.status(200).send();
 }
 
 async function matchPetal(req, res){
@@ -135,12 +137,12 @@ async function matchPetal(req, res){
     }
   } 
   await browser.close();
-  console.log(123)
   await fs.writeFile('./public/matchPetal.json', JSON.stringify(result), err => {
     if (err) {
       console.error(err);
     }
   });
+  res.status(200).send();
 }
 
 async function straitsTimes(req, res){
@@ -157,16 +159,29 @@ async function straitsTimes(req, res){
   let result = null;
   const page = await browser.newPage();
   console.log("start straitsTimes")
+  let dateNow = new Date();
   try {
     await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 600000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
-    });
-    let dateNow = new Date();
+    });    
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
     await fs.writeFile('./public/straitstimes.txt', result, err => {
+      if (err) {
+        console.error(err);
+      }
+    });
+    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 600000, waitUntil: "networkidle2" });
+    result = await page.evaluate(() => {
+      const element = document.querySelector('.block-block-most-popular');
+      return element.outerHTML;
+    });
+
+    result = `<div>${dateNow}</div>` + result;
+    console.log(result);
+    await fs.writeFile('./public/straitstimes_asia.txt', result, err => {
       if (err) {
         console.error(err);
       }
@@ -175,7 +190,8 @@ async function straitsTimes(req, res){
     console.log(error);
     res.status(400).send(error);
   }  
-  await browser.close();  
+  await browser.close();
+  res.status(200).send();
 }
 
 async function zaobao(req, res){
@@ -209,9 +225,9 @@ async function zaobao(req, res){
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
-  }  
-
-  await browser.close();  
+  }
+  await browser.close();
+  res.status(200).send();
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
