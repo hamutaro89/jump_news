@@ -57,48 +57,44 @@ async function matchGoogle(req, res){
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   let result = [];
-  try {
-    const page = await browser.newPage();
-    await page.setViewport({ width: 800, height: 1200 });
-    for(let d of data){
+
+  const page = await browser.newPage();
+  await page.setViewport({ width: 800, height: 1200 });
+  for(let d of data){
+    try{
+      console.log(d);
+      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 60000, waitUntil: "networkidle2" }); 
+      const screenshot = await page.screenshot({
+        type: 'jpeg',
+        quality: 70
+      });
+      const imageData = screenshot.toString('base64');
       try{
-        console.log(d);
-        await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
-        const screenshot = await page.screenshot({
-          type: 'jpeg',
-          quality: 70
-        });
-        const imageData = screenshot.toString('base64');
-        try{
-          await page.waitForSelector('.QXROIe', { timeout: 2000 }).then( async () => {                     
-            result.push({
-              _id: d._id,
-              google: true,
-              screenshot: imageData
-            })
-          });
-        }catch(err){
+        await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {                     
           result.push({
             _id: d._id,
-            google: false,
+            google: true,
             screenshot: imageData
-          }) 
-        }
-        await fs.writeFile('./public/matchGoogle.txt', result, err => {
-          if (err) {
-            console.error(err);
-          }
+          })
         });
       }catch(err){
-        console.log(err)   
-      }
-    }    
-  } catch (error) {
-    console.log(error);
-    res.status(400).send(error);
-  } finally{
-    await browser.close();
+        result.push({
+          _id: d._id,
+          google: false,
+          screenshot: imageData
+        }) 
+      }        
+    }catch(err){
+      console.log(err)   
+    }
   }
+  await browser.close();  
+  
+  await fs.writeFile('./public/matchGoogle.json', JSON.stringify(result), err => {
+    if (err) {
+      console.error(err);
+    }
+  });
 }
 
 async function matchPetal(req, res){
@@ -113,40 +109,36 @@ async function matchPetal(req, res){
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   let result = [];
-  try {
-    const page = await browser.newPage();
-    for(let d of data){
+
+  const page = await browser.newPage();
+  for(let d of data){
+    try{
+      console.log(d);
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 60000, waitUntil: "networkidle2" }); 
       try{
-        console.log(d);
-        await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 500000, waitUntil: "networkidle2" }); 
-        try{
-          await page.waitForSelector('.news-card', { timeout: 2000 }).then( async () => {
-            result.push({
-              _id: d._id,
-              petal: true
-            })
-          });
-        }catch(err){
+        await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
           result.push({
             _id: d._id,
-            petal: false
-          }) 
-        }
-        await fs.writeFile('./public/matchPetal.txt', result, err => {
-          if (err) {
-            console.error(err);
-          }
+            petal: true
+          })
         });
       }catch(err){
-        console.log(err)   
+        result.push({
+          _id: d._id,
+          petal: false
+        }) 
       }
-    }    
-  } catch (error) {
-    console.log(error);
-    res.status(400).send(error);
-  } finally{
-    await browser.close();
-  }
+    }catch(err){
+      console.log(err)   
+    }
+  } 
+  await browser.close();
+  console.log(123)
+  await fs.writeFile('./public/matchPetal.json', JSON.stringify(result), err => {
+    if (err) {
+      console.error(err);
+    }
+  });
 }
 
 async function straitsTimes(req, res){
@@ -164,7 +156,7 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   console.log("start straitsTimes")
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 180000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 60000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -196,7 +188,7 @@ async function zaobao(req, res){
   const page = await browser.newPage();
   console.log("start zaobao")
   try {
-    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 500000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 60000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
       const element = document.querySelector('#taxonomy-term-1');
       return element.outerHTML;
