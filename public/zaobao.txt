@@ -1,4 +1,4 @@
-<div id="taxonomy-term-1" class="taxonomy-term vocabulary-web-categories">
+<div>Wed Mar 08 2023 11:50:44 GMT+0800 (Singapore Standard Time)</div><div id="taxonomy-term-1" class="taxonomy-term vocabulary-web-categories">
   
     
   <div class="content">
@@ -10,9 +10,10 @@
         <h2 class="name-sect">即时</h2>
         <div class="row btn-drop-list">
             <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">2023年03月07日</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">2023年03月08日</button>
                 <ul class="dropdown-menu" role="menu">
-                                            <li class="item-1"><a href="/realtime" class="active">2023年03月07日</a></li>
+                                            <li class="item-1"><a href="/realtime" class="active">2023年03月08日</a></li>
+                                            <li class="item-1"><a href="/realtime?date=20230307">2023年03月07日</a></li>
                                             <li class="item-1"><a href="/realtime?date=20230306">2023年03月06日</a></li>
                                             <li class="item-1"><a href="/realtime?date=20230305">2023年03月05日</a></li>
                                             <li class="item-1"><a href="/realtime?date=20230304">2023年03月04日</a></li>
@@ -20,7 +21,6 @@
                                             <li class="item-1"><a href="/realtime?date=20230302">2023年03月02日</a></li>
                                             <li class="item-1"><a href="/realtime?date=20230301">2023年03月01日</a></li>
                                             <li class="item-1"><a href="/realtime?date=20230228">2023年02月28日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230227">2023年02月27日</a></li>
                                     </ul>
             </div>
         </div>
@@ -71,6 +71,278 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
+      10:38</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370439">公积金局：非公民非永久居民会员明年3月底前须关闭户头</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      09:52</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370434">李显龙总理祝贺女性三八妇女节快乐</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      09:22</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370426">海指开盘跌0.26％</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      09:00</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370266">武装部队PTZ监控相机 10分钟内完成部署</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      08:45</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370413">星期三开盘可关注的股票</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      08:14</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370410">马国遇致命车祸 本地男子丧命</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      23:20</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370273">建国总理李光耀女儿李玮玲患病四年 李显扬：“她现在情况非常不好”</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      23:12</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370272">旅游局推出“新加坡奖励”计划 让旅客免费参加活动</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      20:33</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370263">今年首两个月访新的中国旅客超过6万人次</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      19:50</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370261">前瑜伽教师涉嫌非礼案开审 女学员出庭供证</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      19:31</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370259">许渼荟越级参赛 夺亚洲青少年赛女子重剑铜牌</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      19:08</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370254">汤东线故障 兀兰北和滨海湾花园站间列车服务延误</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      18:18</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370249">本地股市星期二微升0.18％</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      18:12</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370248">汤东线列车故障 加利谷至乌节站延误25分钟</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      17:44</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370245">调查：通胀影响购屋计划 更多人考虑买预购组屋</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      17:41</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370244">用菜刀熨斗虐待女佣 一家三口全判监</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      17:09</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370237">后港快递员丧命车祸 今年第七起致命工伤意外</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
       16:02</span>
       
   
@@ -115,278 +387,6 @@
 
 
 
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      14:43</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370105">半夜撞三车 女子疑涉毒驾驶被捕</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:30</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370087">本地股市星期二早盘上涨13.27点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:09</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370082">谎称提供高回报投资 37岁男子骗逾3万元</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:05</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370080">盗用行医执照买咳嗽药水 男子判监三个月</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:43</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370078">涉向12家建筑公司索贿534元 环境局前稽查员被控</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:59</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370070">本地作家林琼逝世 享年93岁</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:02</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370062">89岁男子去世 警方寻找亲友</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:50</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370061">乌美奥迪服务中心发生爆炸 一人摔伤送院</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:15</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370051">本地股市周二开盘微跌0.1点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:38</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370044">星期二开盘可关注股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:05</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369911">李总理：今年财政预算案为后冠病时代发展打好基础</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      20:34</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369903">重剑好手司徒健同亚青赛战胜哈萨克斯坦强敌夺冠</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      20:02</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369900">卖食品骗局卷土重来 2月至今168人上当</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:27</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369898">我国领导人祝贺武文赏当选越南国家主席</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:34</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369896">男子扮嫖客拍性爱视频 还发视频给女子的丈夫</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:14</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369894">【国会】住院选民至少50人疗养院 将成特别投票站试点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:35</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369889"> 海指技术反弹 全天上涨7.29点</a></span>
-      
-  </div>
-
-
-
                                     </div>
 </div>
 
@@ -417,13 +417,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      17:06</span>
+      11:45</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370236">中国国务院机构改革方案：将组建国家金融监督管理总局</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370453">台总统府：蔡英文与麦卡锡在美会面的行程在规划中</a></span>
       
   </div>
 
@@ -433,13 +433,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      17:00</span>
+      11:18</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370235">周强：反腐败斗争形势依然严峻复杂 点名涉贪落马受严惩老虎</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370446">西安一小区业主“抱团涨价” 计划三年每平方米涨1.5万元人民币</a></span>
       
   </div>
 
@@ -449,13 +449,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      16:31</span>
+      11:16</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370222">朱立伦：国民党中常会将开始讨论2024大选提名作业</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370445">澳洲著名铸币厂据报将百吨掺杂质不达标金条卖到中国</a></span>
       
   </div>
 
@@ -465,13 +465,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      16:01</span>
+      11:12</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370230">栗战书：国家需要时毫不犹豫进行法律、政治、外交斗争</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370444">传德禁华为中兴组件 中国称决定草率违公平竞争原则</a></span>
       
   </div>
 
@@ -481,13 +481,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      16:00</span>
+      10:36</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370229">林毅夫：中国在新经济领域有换道超车、领跑世界机遇</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370438">韩国周六起解除中国入境旅客行前检测要求</a></span>
       
   </div>
 
@@ -497,13 +497,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      15:49</span>
+      10:28</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370227">中国大陆政协委员：期待坐着高铁去台北</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370437">广东河源发生4.5级地震 广州网民反映震感明显</a></span>
       
   </div>
 
@@ -513,13 +513,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      15:23</span>
+      10:16</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370228">中国官媒：让民企稳定预期、坚定信心</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370435">台湾前监察院长王建煊将宣布参选总统</a></span>
       
   </div>
 
@@ -529,13 +529,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      14:45</span>
+      09:48</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370096">赵乐际出席港区全国人大代表团会议</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370433">政协委员建议借鉴台湾新竹科技园建设中关村科技园区</a></span>
       
   </div>
 
@@ -545,13 +545,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      14:27</span>
+      09:43</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370085">疫情阻碍陆港往返 去年有更多港公屋单位被收回</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370432">官媒发文批网络烂梗如“鸡你太美”等散发恶臭气息</a></span>
       
   </div>
 
@@ -561,13 +561,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      14:00</span>
+      09:34</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370093">台外交部：只有台湾人民有权决定台湾未来</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370428">联合国吁港府审查国安法并向社运人士提供法律保障</a></span>
       
   </div>
 
@@ -577,13 +577,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      13:30</span>
+      08:53</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370089">美媒：中国将设立新机构集中管理数据</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370418">美媒：中国三分之二地方政府未偿债务超过收入的120%</a></span>
       
   </div>
 
@@ -593,13 +593,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      13:15</span>
+      08:52</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370092">涉港名媛蔡天凤碎尸案第七人被捕</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370417">斯里兰卡总统称中国愿重组斯里兰卡债务</a></span>
       
   </div>
 
@@ -609,13 +609,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      13:02</span>
+      08:49</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370077">台湾玉山今冬未下雪  有记录以来首次</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370415">巴西将要求中国修改疯牛病卫生协议</a></span>
       
   </div>
 
@@ -625,13 +625,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      12:53</span>
+      08:21</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370090">台陆委会主委邱太三：恢复两岸直航先去除政治因素</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370411">美媒：美国拟周五放宽中国入境旅客检测要求</a></span>
       
   </div>
 
@@ -641,13 +641,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      12:28</span>
+      08:14</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370086">秦刚两会记者会首秀 回答问题较去年减近半</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370409">台湾出口连续第六个月下降 当地经济承压</a></span>
       
   </div>
 
@@ -657,13 +657,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      12:21</span>
+      07:55</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370084">何超琼：大湾区市场庞大将成香港发展大舞台</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370405">台防检局：未禁止金门鸡蛋输台</a></span>
       
   </div>
 
@@ -673,13 +673,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      12:12</span>
+      07:21</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370083">秦刚警告日本如参与遏制中国的新冷战 是旧伤未愈又添新痛</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230308-1370403">中国住建部部长：对房地产企稳回升充满信心</a></span>
       
   </div>
 
@@ -689,13 +689,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      11:14</span>
+      22:00</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370073">秦刚：台湾问题处理不好 中美关系地动山摇</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230307-1370101">跨境资金无法汇出？中国外汇局：政策没变</a></span>
       
   </div>
 
@@ -705,13 +705,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      11:08</span>
+      21:01</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370072">秦刚：不应由歇斯底里新麦卡锡主义决定中美关系</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230307-1370097">武大校长：不赞成一些高校禁用ChatGPT</a></span>
       
   </div>
 
@@ -721,13 +721,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      11:02</span>
+      20:58</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370071">秦刚：中俄关系不结盟、不对抗、不针对第三方</a></span>
+<span class="realtime-title"><a href="/realtime/china/story20230307-1370264">下午察：数治时代的中国大数据监管局</a></span>
       
   </div>
 
@@ -766,13 +766,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      15:40</span>
+      11:17</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370225">美国前财长：美国经济或在几个月内遭遇困难</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370447">鲍威尔：美联储或加快加息步伐</a></span>
       
   </div>
 
@@ -782,13 +782,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      15:15</span>
+      10:50</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370223">菲律宾棉兰老岛发生6.0级地震</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370441">俄罗斯与盟友磋商 考虑挑战美国提名的世行行长人选</a></span>
       
   </div>
 
@@ -798,13 +798,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      14:41</span>
+      09:42</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370104">日本实际工资连续10个月同比下降</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370431">麦卡锡确认 计划今年内在美国与蔡英文会面</a></span>
       
   </div>
 
@@ -814,13 +814,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      13:53</span>
+      09:40</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370094">打击犯罪 纽约市长吁购物者入店前摘口罩</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370430">俄罗斯：纽时报道证明 对北溪事件启动国际调查是正确的</a></span>
       
   </div>
 
@@ -830,13 +830,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      13:04</span>
+      09:03</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370091">韩抵制日货潮走弱 自日本进口消费品渐增</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370421">总统顾问：乌克兰与北溪管道袭击事件无关</a></span>
       
   </div>
 
@@ -846,13 +846,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      12:35</span>
+      08:07</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370088">人权监察组织：乌克兰至今从俄占领区带回307名儿童</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370407">美国官员：情报显示去年北溪管道袭击是亲乌团体所为</a></span>
       
   </div>
 
@@ -862,13 +862,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      11:21</span>
+      07:28</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370075">马国内政部已同意巫统两高职不开放竞选</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370404">白宫称美中关系没变化 寻求与中国进行战略竞争并获胜</a></span>
       
   </div>
 
@@ -878,13 +878,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      10:48</span>
+      06:59</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370068">日本新型主力火箭发射失败 航天局向火箭发出自毁命令</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230308-1370402">新法案赋予商务部权力禁止TikTok 白宫表态支持</a></span>
       
   </div>
 
@@ -894,13 +894,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      09:49</span>
+      23:44</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370060">金与正：朝鲜已准备好 随时对韩国采取压倒性军事行动</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370276">韩国总统4月26日访问美国</a></span>
       
   </div>
 
@@ -910,13 +910,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      09:23</span>
+      23:35</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370054">乌克兰要求美国提供可用于无人机的集束炸弹</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370275">卡塔尔外长出任新首相</a></span>
       
   </div>
 
@@ -926,13 +926,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      08:16</span>
+      23:32</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370042">澳总理8日访问印度 期望实现澳洲贸易多元化</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370274">联合国：男女工资差距为1比0.51美元</a></span>
       
   </div>
 
@@ -942,13 +942,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      07:33</span>
+      22:51</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370037">加拿大警方就媒体报道中国试图干预选举展开调查</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370271">马国人力部：约113万马国人在新加坡工作</a></span>
       
   </div>
 
@@ -958,13 +958,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      07:05</span>
+      22:03</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370034">美国45州总检察长要求TikTok配合消费者权益保护调查</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370269">菲苏禄苏丹后裔索赔案：马国阻止法国扣押在巴黎三项资产</a></span>
       
   </div>
 
@@ -974,13 +974,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      07:04</span>
+      21:57</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370033">媒体指德国计划禁止5G网络采用部分华为中兴组件</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370268">孟加拉首都大楼发生爆炸 酿15死逾百伤</a></span>
       
   </div>
 
@@ -990,13 +990,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      23:42</span>
+      21:40</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369912">北爱尔兰民主党成立小组 研究新达成温莎框架</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370267">消息：Meta最快本周裁退数千名员工</a></span>
       
   </div>
 
@@ -1006,13 +1006,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      22:18</span>
+      19:53</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369909">俄瓦格纳集团代表被禁止进入俄军总部</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370262">周二美市盘前小幅走高 重点谈瑞士信贷评估微软股</a></span>
       
   </div>
 
@@ -1022,13 +1022,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      21:59</span>
+      19:34</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369908">马国内阁将探讨新柔长堤设立“单一入境点”</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370260">乌克兰就俄罗斯据称射杀战俘展开调查</a></span>
       
   </div>
 
@@ -1038,13 +1038,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      21:53</span>
+      19:25</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369907">法国工会将于3月7日再举行反养老金改革游行</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370257">联合国：土耳其地震料造成超过1000亿美元损失</a></span>
       
   </div>
 
@@ -1054,13 +1054,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      21:30</span>
+      18:31</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369906">乌总统办公室：乌将领支持继续保卫巴赫穆特</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370252">美市3月13日开始 本地时间晚上9时30分开市</a></span>
       
   </div>
 
@@ -1070,13 +1070,13 @@
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
-      21:25</span>
+      17:46</span>
       
   
 
 
             
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369905">西马水灾灾情好转 灾民一天内减少约1万人</a></span>
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370247">美国防长奥斯汀突访伊拉克 重申战略伙伴关系</a></span>
       
   </div>
 
@@ -1109,6 +1109,86 @@
     </div>
     <div class="article-list row row-tighten">
                       
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      09:22</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370426">海指开盘跌0.26％</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      08:45</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370413">星期三开盘可关注的股票</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      19:53</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370262">周二美市盘前小幅走高 重点谈瑞士信贷评估微软股</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      18:31</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/world/story20230307-1370252">美市3月13日开始 本地时间晚上9时30分开市</a></span>
+      
+  </div>
+
+
+
+                                                    
+<div class="realtime-wrapper">
+          
+                          <span class="realtime-time">
+      18:18</span>
+      
+  
+
+
+            
+<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370249">本地股市星期二微升0.18％</a></span>
+      
+  </div>
+
+
+
+                                                    
 <div class="realtime-wrapper">
           
                           <span class="realtime-time">
@@ -1343,86 +1423,6 @@
 
             
 <span class="realtime-title"><a href="/realtime/singapore/story20230303-1368771">本地股市周五开盘上涨11.86点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:38</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368766">星期五开盘可关注股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:28</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230302-1368618">周四美市盘前偏低 重点谈冠病疫苗商诺瓦瓦克斯股价下泻</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:04</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230302-1368611">加息担忧使亚股和海指疲软 蔚来股价大跌10％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:26</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230302-1368454">本地股市星期四早盘跌18.13点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:00</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230302-1368441">我国再提高投资移民条件 最低投资门槛调高到1000万元</a></span>
       
   </div>
 

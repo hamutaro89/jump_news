@@ -161,6 +161,9 @@ async function straitsTimes(req, res){
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
     });
+    let dateNow = new Date();
+    result = `<div>${dateNow}</div>` + result;
+    console.log(result);
     await fs.writeFile('./public/straitstimes.txt', result, err => {
       if (err) {
         console.error(err);
@@ -193,6 +196,9 @@ async function zaobao(req, res){
       const element = document.querySelector('#taxonomy-term-1');
       return element.outerHTML;
     });
+    let dateNow = new Date();
+    result = `<div>${dateNow}</div>` + result;
+    console.log(result);
     await fs.writeFile('./public/zaobao.txt', result, err => {
       if (err) {
         console.error(err);
