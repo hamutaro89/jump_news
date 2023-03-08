@@ -46,6 +46,7 @@ const scrapeLogic = async function(req, res){
 };
 
 async function matchGoogle(req, res){
+  console.log("start Match google");
   let data = req.body;
   const browser = await puppeteer.launch({
     args: [
@@ -98,6 +99,7 @@ async function matchGoogle(req, res){
 }
 
 async function matchPetal(req, res){
+  console.log("start Match Petal");
   let data = req.body;
   const browser = await puppeteer.launch({
     args: [
