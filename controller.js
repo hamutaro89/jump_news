@@ -97,7 +97,7 @@ async function matchGoogle(req, res){
       console.error(err);
     }
   });
-  res.status(200).send();
+  res.status(200).send('start match google done');
 }
 
 async function matchPetal(req, res){
@@ -142,7 +142,7 @@ async function matchPetal(req, res){
       console.error(err);
     }
   });
-  res.status(200).send();
+  res.status(200).send('start match petal done');
 }
 
 async function straitsTimes(req, res){
@@ -154,26 +154,31 @@ async function straitsTimes(req, res){
       "--single-process",
       "--no-zygote",
     ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_EXECUTABLE_PATH : puppeteer.executablePath()
   });
   let result = null;
   const page = await browser.newPage();
   console.log("start straitsTimes")
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 600000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 600000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
     });    
     result = `<div>${dateNow}</div>` + result;
-    console.log(result);
     await fs.writeFile('./public/straitstimes.txt', result, err => {
       if (err) {
         console.error(err);
       }
-    });
-    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 600000, waitUntil: "networkidle2" });
+    });    
+  } catch (error) {
+    console.log("start straitstimes", error);
+    res.status(400).send(error);
+  }  
+
+  try {
+    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 600000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -185,13 +190,14 @@ async function straitsTimes(req, res){
       if (err) {
         console.error(err);
       }
-    });
+    });    
   } catch (error) {
-    console.log(error);
+    console.log("start straitstimes_asia", error);
     res.status(400).send(error);
   }  
+  
   await browser.close();
-  res.status(200).send();
+  res.status(200).send('start straitstimes done');
 }
 
 async function zaobao(req, res){
@@ -227,7 +233,7 @@ async function zaobao(req, res){
     res.status(400).send(error);
   }
   await browser.close();
-  res.status(200).send();
+  res.status(200).send('start zaobao done');
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
