@@ -1,1442 +1,801 @@
-<div>Wed Mar 08 2023 11:50:44 GMT+0800 (Singapore Standard Time)</div><div id="taxonomy-term-1" class="taxonomy-term vocabulary-web-categories">
-  
-    
-  <div class="content">
-          <div class="block block-zb-common block-block-category-listing-date-filter">
-  
-    
-      <div class="content">
-          <section id="MainCourse" class="cornwall list-glory">
-        <h2 class="name-sect">即时</h2>
-        <div class="row btn-drop-list">
-            <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">2023年03月08日</button>
-                <ul class="dropdown-menu" role="menu">
-                                            <li class="item-1"><a href="/realtime" class="active">2023年03月08日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230307">2023年03月07日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230306">2023年03月06日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230305">2023年03月05日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230304">2023年03月04日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230303">2023年03月03日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230302">2023年03月02日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230301">2023年03月01日</a></li>
-                                            <li class="item-1"><a href="/realtime?date=20230228">2023年02月28日</a></li>
-                                    </ul>
+<div>Thu Mar 09 2023 11:20:31 GMT+0800 (Singapore Standard Time)</div><div class="article-list row row-tighten">
+    <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370634">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8onldg2iv7v9wagv1_08194648_pansy.jpg?VersionId=Mpqso_xc0z9PC35dfWbb89aAJ9LwKLRe&amp;itok=uTfGaFH7 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8onldg2iv7v9wagv1_08194648_pansy.jpg?VersionId=22ZWLRSWrOkihIMenHsfAVcAVCmxrVge&amp;itok=eBZSe2xe" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8onldg2iv7v9wagv1_08194648_pansy.jpg?VersionId=22ZWLRSWrOkihIMenHsfAVcAVCmxrVge&amp;itok=eBZSe2xe" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8onldg2iv7v9wagv1_08194648_pansy.jpg?VersionId=Mpqso_xc0z9PC35dfWbb89aAJ9LwKLRe&amp;itok=uTfGaFH7 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8onldg2iv7v9wagv1_08194648_pansy.jpg?VersionId=22ZWLRSWrOkihIMenHsfAVcAVCmxrVge&amp;itok=eBZSe2xe" pinger-seen="true">
+                                    </a>
             </div>
         </div>
-    </section>
-<script>
- jQuery(function(){
-    var url = window.location.href;
-    url = url.replace(/^.*\/\/[^\/]+/, '');
-     jQuery("#MainCourse .dropdown-menu li").each(function (i, v) {
-         if (jQuery(v).find('a').attr('href') == url) {
-            jQuery(".btn:first-child").text(jQuery(v).find('a').text());
-            jQuery(v).find('a').addClass('active');
-         }
-     });
-});
-</script>
-<style>
-  #MainCourse .dropdown-menu>li>a.active {
-        font-weight: 500;
-        color: #a50034;
-        background-color: #f4f5f7;
-    }
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370634"><h2>“限水”思源 体会滴滴皆珍贵</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370635">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/page-one-covid-0903.jpg?VersionId=BVu.8vEpUqQ6e3X5xTyQZl1PegDtNlFC&amp;h=a0e5c5c1&amp;itok=Lhwxa0xp 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/page-one-covid-0903.jpg?VersionId=bVehg0s2FTJlRYemBgyZ8DGjJHJbfuac&amp;h=a0e5c5c1&amp;itok=W4xO5CL9" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/page-one-covid-0903.jpg?VersionId=bVehg0s2FTJlRYemBgyZ8DGjJHJbfuac&amp;h=a0e5c5c1&amp;itok=W4xO5CL9" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/page-one-covid-0903.jpg?VersionId=BVu.8vEpUqQ6e3X5xTyQZl1PegDtNlFC&amp;h=a0e5c5c1&amp;itok=Lhwxa0xp 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/page-one-covid-0903.jpg?VersionId=bVehg0s2FTJlRYemBgyZ8DGjJHJbfuac&amp;h=a0e5c5c1&amp;itok=W4xO5CL9" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370635"><h2>政府将设前瞻规划团队应对未来疫情</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370636">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8nxx7rcg71eyce55x1_08160912_leesuehp.jpg?VersionId=x3cN3oNNdMawyAocZElP_jG43INf0A2b&amp;itok=bM6UHzMK 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8nxx7rcg71eyce55x1_08160912_leesuehp.jpg?VersionId=CzwEOrCMbk1OnCOKUqNYINI3EB7Zpi0A&amp;itok=9iMLm5GH" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8nxx7rcg71eyce55x1_08160912_leesuehp.jpg?VersionId=CzwEOrCMbk1OnCOKUqNYINI3EB7Zpi0A&amp;itok=9iMLm5GH" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8nxx7rcg71eyce55x1_08160912_leesuehp.jpg?VersionId=x3cN3oNNdMawyAocZElP_jG43INf0A2b&amp;itok=bM6UHzMK 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8nxx7rcg71eyce55x1_08160912_leesuehp.jpg?VersionId=CzwEOrCMbk1OnCOKUqNYINI3EB7Zpi0A&amp;itok=9iMLm5GH" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370636"><h2>尚穆根：建立促进合作而非竞争区域框架 符合小国利益</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370637">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8plnwwkb61jbfc0hnu_08194359_paecs.jpg?VersionId=nlJlPrbpjynvyqat8n52GH5f4NYX1gDD&amp;h=75ad03a1&amp;itok=d5OvqGfI 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8plnwwkb61jbfc0hnu_08194359_paecs.jpg?VersionId=YzACvLdlmH_SBtZ8xPF8WW7gGUx1pWzz&amp;h=75ad03a1&amp;itok=SB6JfxCw" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8plnwwkb61jbfc0hnu_08194359_paecs.jpg?VersionId=YzACvLdlmH_SBtZ8xPF8WW7gGUx1pWzz&amp;h=75ad03a1&amp;itok=SB6JfxCw" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8plnwwkb61jbfc0hnu_08194359_paecs.jpg?VersionId=nlJlPrbpjynvyqat8n52GH5f4NYX1gDD&amp;h=75ad03a1&amp;itok=d5OvqGfI 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8plnwwkb61jbfc0hnu_08194359_paecs.jpg?VersionId=YzACvLdlmH_SBtZ8xPF8WW7gGUx1pWzz&amp;h=75ad03a1&amp;itok=SB6JfxCw" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370637"><h2>淡滨尼出现流动添油站 民防与市建局展开调查</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370638">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/caifanggeylang-serai-0903.jpg?VersionId=N59iGGw0GeprZppwKgq7NWNTeUX3OLKu&amp;h=bb29f296&amp;itok=TBvWIX1P 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/caifanggeylang-serai-0903.jpg?VersionId=caPLiVOYIwbXA2LZ31hJJYHrRu2Thmbw&amp;h=bb29f296&amp;itok=7-F56s74" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/caifanggeylang-serai-0903.jpg?VersionId=caPLiVOYIwbXA2LZ31hJJYHrRu2Thmbw&amp;h=bb29f296&amp;itok=7-F56s74" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/caifanggeylang-serai-0903.jpg?VersionId=N59iGGw0GeprZppwKgq7NWNTeUX3OLKu&amp;h=bb29f296&amp;itok=TBvWIX1P 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/caifanggeylang-serai-0903.jpg?VersionId=caPLiVOYIwbXA2LZ31hJJYHrRu2Thmbw&amp;h=bb29f296&amp;itok=7-F56s74" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370638"><h2>总值550万元 芽笼士乃翻新工程 料明年第三季完工</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370639">
+                                        <img class="lazyloaded" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8acs7rco9bursljnb_08162851_yinlu.jpg?VersionId=rRXKuCy7SY9lZMR2Kh11g2VTMUtAfUfC&amp;itok=oWPLKK4I 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8acs7rco9bursljnb_08162851_yinlu.jpg?VersionId=QBUN5LJzxgrAeKxW2IoiprTk_qop2Fsy&amp;itok=Jed2d4lC" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8acs7rco9bursljnb_08162851_yinlu.jpg?VersionId=QBUN5LJzxgrAeKxW2IoiprTk_qop2Fsy&amp;itok=Jed2d4lC" title="" alt="" srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8acs7rco9bursljnb_08162851_yinlu.jpg?VersionId=rRXKuCy7SY9lZMR2Kh11g2VTMUtAfUfC&amp;itok=oWPLKK4I 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8acs7rco9bursljnb_08162851_yinlu.jpg?VersionId=QBUN5LJzxgrAeKxW2IoiprTk_qop2Fsy&amp;itok=Jed2d4lC" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370639"><h2>盘点三年决策与落实 抗疫路上长短利弊是未来宝贵借鉴</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+                 <div id="block-newslettersignupblock" class="settings-tray-editable block block-sph-newsletter block-newsletter-signup-block" data-drupal-settingstray="editable">
+  
+    
+      <div class="content">
+      <div class="newsletter-subscribe-block-container" id="newsletter-subscribe-block">
+<div class="paywall-newsletter my-5">
+<div class="paywall-newsletter">
+<section id="newsletter-signup-for-listing">
+<form accept-charset="UTF-8" action="#" class="newsletter-signup-form" data-drupal-selector="newsletter-signup-form-dy4znfgbz7y" id="newsletter-signup-form--dY4znfGbZ7Y" method="post">
+<div class="fancy-form">
+<div class="cxense cxense3 secondary">
+<div class="legend">
+<div class="legend-label">新闻简报</div>
+</div>
+
+<div class="container">
+<div class="row max-size">
+<div class="col-12 col-md-3 left-space"><img alt="" class="img-fluid logo-zaobao" data-entity-type="" data-entity-uuid="" src="https://www.zaobao.com.sg/themes/custom/zbsg2020/images/logo/logo-vertical@2x.png" pinger-seen="true"></div>
+
+<div class="col-12 col-md-9 right-space border-left">
+<h2>每日新闻电邮速递，带给你最即时新闻报道</h2>
+
+<div class="row">
+<div class="col-12">
+<div class="newsletter-cont"><input aria-required="true" class="email-input input is-fullwidth is-rounded" data-drupal-selector="edit-email-address" id="edit-email-address--mUSrl8bnMNQ" maxlength="254" name="email_address" placeholder="输入您的电子邮件" required="required" size="60" type="email" value=""></div>
+<a class="cxsph-cta-submit button cta cta-solid cta-gradient-red" id="website-signup" name="sub-btn">立即注册</a><input autocomplete="off" data-drupal-selector="form-fuwbdgjfy3kcujvd3vafgzwqw43dwjjty5kjt7abbyg" name="form_build_id" type="hidden" value="form-FUwbdgjFy3kcUJvd3VAFGZWqw43DWJJTY5KJt7ABbYg"> <input data-drupal-selector="edit-newsletter-signup-form-form-token-p6zk-mfgugm" name="form_token" type="hidden" value="qg2w8pVoVvwZoI5z-WMqp217S5xK-hx-6DXgYR9fhoE"> <input data-drupal-selector="edit-newsletter-signup-form-lzlroh8ef2k" name="form_id" type="hidden" value="newsletter_signup_form">&nbsp;</div>
+
+<div class="col-12">
+<div class="foot-notes">
+<p>当您提交以上信息，即表示您已同意我们的<a href="https://www.sph.com.sg/legal/sph_privacy/">隐私政策</a>以及<a href="https://www.sph.com.sg/legal/website_tnc/">条款与条件</a>。<br>
+<a class="more-link" href=" https://www.zaobao.com.sg/newsletter-signup" target="_blank">更多精彩电邮速递</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</section>
+</div>
+
+<div id="response">
+<p id="success-msg">谢谢订阅免费的每日新闻电邮速递！</p>
+
+<p id="update-success-msg">感谢您更新了每日新闻电邮速递订阅！</p>
+
+<p id="error-msg">很抱歉页面出错了，请刷新页面再尝试一次！</p>
+
+<p id="warning-msg">请输入有效的电邮！</p>
+
+<p id="waring-selection">您还没有选择感兴趣的电邮主题！</p>
+</div>
+</div>
+</div>
+<style type="text/css">.more-link{
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 0em;
+    border-bottom: 0.5px solid currentColor;
+    color: #a50034 !important;
+}
 </style>
+
+
     </div>
   </div>
 
-  <div class="layout layout--twocol-section layout--twocol-section--50-50">
+              <div class="col-12 col-lg-4">
+             
+            
 
-          <div class="layout__region layout__region--first">
-        <div class="block block-zb-common block-block-article-by-taxonomy-term">
-  
-    
-      <div class="content">
-      <div class="group">
-      <div class="heading-border heading-border-primary fit">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col">
-            <a class="heading-border-mainlink" href="/realtime/singapore"><h2>新加坡</h2></a>
-          </div>
-          <div class="col more-right"><a class="heading-border-mainlink" href="/realtime/singapore"><span>更多 <i class="fas fa-chevron-right"></i></span></a></div>
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370640">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7lvfdoas2qgoafvhazp_08210543_yinlu.jpg?VersionId=_lklMtjHte5e_wRjd_CdKqttsDWisLZZ&amp;h=fcb40382&amp;itok=teAJn3eH 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7lvfdoas2qgoafvhazp_08210543_yinlu.jpg?VersionId=RYuuT8hUJ65YYRExh.WjYsf8QOz9rWLE&amp;h=fcb40382&amp;itok=gEtVgZ2q" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7lvfdoas2qgoafvhazp_08210543_yinlu.jpg?VersionId=RYuuT8hUJ65YYRExh.WjYsf8QOz9rWLE&amp;h=fcb40382&amp;itok=gEtVgZ2q" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
         </div>
-        <div class="divider"></div>
-      </div>
-    </div>
-    <div class="article-list row row-tighten">
-                      
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:38</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370439">公积金局：非公民非永久居民会员明年3月底前须关闭户头</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:52</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370434">李显龙总理祝贺女性三八妇女节快乐</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:22</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370426">海指开盘跌0.26％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:00</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370266">武装部队PTZ监控相机 10分钟内完成部署</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:45</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370413">星期三开盘可关注的股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:14</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370410">马国遇致命车祸 本地男子丧命</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:20</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370273">建国总理李光耀女儿李玮玲患病四年 李显扬：“她现在情况非常不好”</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:12</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370272">旅游局推出“新加坡奖励”计划 让旅客免费参加活动</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      20:33</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370263">今年首两个月访新的中国旅客超过6万人次</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:50</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370261">前瑜伽教师涉嫌非礼案开审 女学员出庭供证</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:31</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370259">许渼荟越级参赛 夺亚洲青少年赛女子重剑铜牌</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:08</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370254">汤东线故障 兀兰北和滨海湾花园站间列车服务延误</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:18</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370249">本地股市星期二微升0.18％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:12</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370248">汤东线列车故障 加利谷至乌节站延误25分钟</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:44</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370245">调查：通胀影响购屋计划 更多人考虑买预购组屋</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:41</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370244">用菜刀熨斗虐待女佣 一家三口全判监</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:09</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370237">后港快递员丧命车祸 今年第七起致命工伤意外</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      16:02</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370231">私召车开进公寓泳池 顾客拒40元代金券补偿</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      14:47</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370108">AWARE：职场公平措施不足 应明确定义何谓歧视</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      14:44</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370107">烤肉挂招牌处 小贩摊位挨批不卫生</a></span>
-      
-  </div>
-
-
-
-                                    </div>
-</div>
-
-    </div>
-  </div>
-
-      </div>
-    
-          <div class="layout__region layout__region--second">
-        <div class="block block-zb-common block-block-article-by-taxonomy-term">
-  
-    
-      <div class="content">
-      <div class="group">
-      <div class="heading-border heading-border-primary fit">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col">
-            <a class="heading-border-mainlink" href="/realtime/china"><h2>中国</h2></a>
-          </div>
-          <div class="col more-right"><a class="heading-border-mainlink" href="/realtime/china"><span>更多 <i class="fas fa-chevron-right"></i></span></a></div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370640"><h2>学者：白皮书总结心得 完善日后应对类似疫情蓝图</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
         </div>
-        <div class="divider"></div>
       </div>
     </div>
-    <div class="article-list row row-tighten">
-                      
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:45</span>
+
       
-  
 
 
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
             
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370453">台总统府：蔡英文与麦卡锡在美会面的行程在规划中</a></span>
-      
-  </div>
 
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:18</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370446">西安一小区业主“抱团涨价” 计划三年每平方米涨1.5万元人民币</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:16</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370445">澳洲著名铸币厂据报将百吨掺杂质不达标金条卖到中国</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:12</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370444">传德禁华为中兴组件 中国称决定草率违公平竞争原则</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:36</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370438">韩国周六起解除中国入境旅客行前检测要求</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:28</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370437">广东河源发生4.5级地震 广州网民反映震感明显</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:16</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370435">台湾前监察院长王建煊将宣布参选总统</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:48</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370433">政协委员建议借鉴台湾新竹科技园建设中关村科技园区</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:43</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370432">官媒发文批网络烂梗如“鸡你太美”等散发恶臭气息</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:34</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370428">联合国吁港府审查国安法并向社运人士提供法律保障</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:53</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370418">美媒：中国三分之二地方政府未偿债务超过收入的120%</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:52</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370417">斯里兰卡总统称中国愿重组斯里兰卡债务</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:49</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370415">巴西将要求中国修改疯牛病卫生协议</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:21</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370411">美媒：美国拟周五放宽中国入境旅客检测要求</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:14</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370409">台湾出口连续第六个月下降 当地经济承压</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      07:55</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370405">台防检局：未禁止金门鸡蛋输台</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      07:21</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230308-1370403">中国住建部部长：对房地产企稳回升充满信心</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      22:00</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370101">跨境资金无法汇出？中国外汇局：政策没变</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      21:01</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370097">武大校长：不赞成一些高校禁用ChatGPT</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      20:58</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/china/story20230307-1370264">下午察：数治时代的中国大数据监管局</a></span>
-      
-  </div>
-
-
-
-                                    </div>
-</div>
-
-    </div>
-  </div>
-
-      </div>
-    
-  </div>
-  <div class="layout layout--twocol-section layout--twocol-section--50-50">
-
-          <div class="layout__region layout__region--first">
-        <div class="block block-zb-common block-block-article-by-taxonomy-term">
-  
-    
-      <div class="content">
-      <div class="group">
-      <div class="heading-border heading-border-primary fit">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col">
-            <a class="heading-border-mainlink" href="/realtime/world"><h2>国际</h2></a>
-          </div>
-          <div class="col more-right"><a class="heading-border-mainlink" href="/realtime/world"><span>更多 <i class="fas fa-chevron-right"></i></span></a></div>
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370641">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p63z8q5rrln6a3hnq4_08163421_yvontay.jpg?VersionId=hpUa8urFeOMqYKbTeHkSN8kRlI5xPIvd&amp;h=420aa37c&amp;itok=ArkqC8f8 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p63z8q5rrln6a3hnq4_08163421_yvontay.jpg?VersionId=olTTLvoQg0stoNE1ef4qqKBteQ9zIMWg&amp;h=420aa37c&amp;itok=oxRJam1E" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p63z8q5rrln6a3hnq4_08163421_yvontay.jpg?VersionId=olTTLvoQg0stoNE1ef4qqKBteQ9zIMWg&amp;h=420aa37c&amp;itok=oxRJam1E" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
         </div>
-        <div class="divider"></div>
-      </div>
-    </div>
-    <div class="article-list row row-tighten">
-                      
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      11:17</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370447">鲍威尔：美联储或加快加息步伐</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      10:50</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370441">俄罗斯与盟友磋商 考虑挑战美国提名的世行行长人选</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:42</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370431">麦卡锡确认 计划今年内在美国与蔡英文会面</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:40</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370430">俄罗斯：纽时报道证明 对北溪事件启动国际调查是正确的</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:03</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370421">总统顾问：乌克兰与北溪管道袭击事件无关</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:07</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370407">美国官员：情报显示去年北溪管道袭击是亲乌团体所为</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      07:28</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370404">白宫称美中关系没变化 寻求与中国进行战略竞争并获胜</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      06:59</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230308-1370402">新法案赋予商务部权力禁止TikTok 白宫表态支持</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:44</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370276">韩国总统4月26日访问美国</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:35</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370275">卡塔尔外长出任新首相</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      23:32</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370274">联合国：男女工资差距为1比0.51美元</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      22:51</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370271">马国人力部：约113万马国人在新加坡工作</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      22:03</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370269">菲苏禄苏丹后裔索赔案：马国阻止法国扣押在巴黎三项资产</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      21:57</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370268">孟加拉首都大楼发生爆炸 酿15死逾百伤</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      21:40</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370267">消息：Meta最快本周裁退数千名员工</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:53</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370262">周二美市盘前小幅走高 重点谈瑞士信贷评估微软股</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:34</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370260">乌克兰就俄罗斯据称射杀战俘展开调查</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:25</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370257">联合国：土耳其地震料造成超过1000亿美元损失</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:31</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370252">美市3月13日开始 本地时间晚上9时30分开市</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:46</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370247">美国防长奥斯汀突访伊拉克 重申战略伙伴关系</a></span>
-      
-  </div>
-
-
-
-                                    </div>
-</div>
-
-    </div>
-  </div>
-
-      </div>
-    
-          <div class="layout__region layout__region--second">
-        <div class="block block-zb-common block-block-article-by-taxonomy-term">
-  
-    
-      <div class="content">
-      <div class="group">
-      <div class="heading-border heading-border-primary fit">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col">
-            <a class="heading-border-mainlink" href="/realtime/finance"><h2>财经即时</h2></a>
-          </div>
-          <div class="col more-right"><a class="heading-border-mainlink" href="/realtime/finance"><span>更多 <i class="fas fa-chevron-right"></i></span></a></div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370641"><h2>10分钟完成部署 武装部队PTZ相机实时监控“灾难”现场</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
         </div>
-        <div class="divider"></div>
       </div>
     </div>
-    <div class="article-list row row-tighten">
-                      
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:22</span>
+
       
-  
 
 
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
             
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370426">海指开盘跌0.26％</a></span>
-      
-  </div>
 
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:45</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230308-1370413">星期三开盘可关注的股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:53</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370262">周二美市盘前小幅走高 重点谈瑞士信贷评估微软股</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:31</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230307-1370252">美市3月13日开始 本地时间晚上9时30分开市</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      18:18</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370249">本地股市星期二微升0.18％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:30</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370087">本地股市星期二早盘上涨13.27点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:15</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370051">本地股市周二开盘微跌0.1点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:38</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230307-1370044">星期二开盘可关注股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      20:20</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230306-1369902">周一美市盘前小幅走高 重点谈人工智能公司C3.ai</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:35</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369889"> 海指技术反弹 全天上涨7.29点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:35</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369731">本地股市星期一早盘跌0.17%</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:17</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369699">本地股市星期一开盘先起后跌0.08%</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      08:31</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230306-1369691">星期一值得关注的股票</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      22:07</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230305-1369574">今年首个大众私宅项目热销 万景轩开售卖出近半单位</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      19:39</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/world/story20230303-1368978">周五美市盘前小幅升高 重点谈电脑公司戴尔的最新业绩</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      17:40</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368967">海指星期五闭市微跌0.09％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      13:22</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368819">本地零售业销售额1月同比下跌0.8％</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      12:46</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368813">本地股市星期五早盘涨12.18点</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:50</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368775">新加坡2月份整体采购经理指数跌至49.6</a></span>
-      
-  </div>
-
-
-
-                                                    
-<div class="realtime-wrapper">
-          
-                          <span class="realtime-time">
-      09:21</span>
-      
-  
-
-
-            
-<span class="realtime-title"><a href="/realtime/singapore/story20230303-1368771">本地股市周五开盘上涨11.86点</a></span>
-      
-  </div>
-
-
-
-                                    </div>
-</div>
-
-    </div>
-  </div>
-
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370642">
+                                        <img class="lazyload" data-srcset="/themes/custom/zbsg2020/images/default-img.png 768w, /themes/custom/zbsg2020/images/default-img.png" data-src="/themes/custom/zbsg2020/images/default-img.png" title="Default Picture" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370642"><h2>非公民与非永久居民 明年3月底前须关闭公积金户头</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
       </div>
-    
-  </div>
+    </div>
 
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
   </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370643">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8pr2eq4zk17z3wkgv1_08194851_yvontay.jpg?VersionId=cCfn5pRgt2wXoMS6c_yaIR4Liaq3dpFh&amp;h=539c21cd&amp;itok=1zKQkcRu 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8pr2eq4zk17z3wkgv1_08194851_yvontay.jpg?VersionId=5wSOGkrOaJzZCInqcNlt1lqLdTxTqUv9&amp;h=539c21cd&amp;itok=egSbS3mC" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8pr2eq4zk17z3wkgv1_08194851_yvontay.jpg?VersionId=5wSOGkrOaJzZCInqcNlt1lqLdTxTqUv9&amp;h=539c21cd&amp;itok=egSbS3mC" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370643"><h2>了解水资源珍贵 3万4000名学生参与限水演习</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370644">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p7ks99h8wmqn4vt7qd_08195848_yvontay.jpg?VersionId=PSaqohima4XfNveTFKbwPPNAMu1n_WoM&amp;h=a406cd03&amp;itok=7ZBGT38B 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p7ks99h8wmqn4vt7qd_08195848_yvontay.jpg?VersionId=0oUJL8n_vxudACtLQws3qgVbSKZjeMzz&amp;h=a406cd03&amp;itok=xIIFsiY6" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p7ks99h8wmqn4vt7qd_08195848_yvontay.jpg?VersionId=0oUJL8n_vxudACtLQws3qgVbSKZjeMzz&amp;h=a406cd03&amp;itok=xIIFsiY6" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370644"><h2>涉嫌以高回报诱骗超过1600万元贷款 前董事否认指控</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370645">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p8m1zrc96pzj5k1i7i_08163324_yvontay.jpg?VersionId=khBC5q9kK01XEbiAAv0wiwrLnOIzcv59&amp;h=12bd509b&amp;itok=sY7UVR8T 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8m1zrc96pzj5k1i7i_08163324_yvontay.jpg?VersionId=9VTZLbjeF_MzSKjpfREfV5caXFwt6.D2&amp;h=12bd509b&amp;itok=nLXRl_P8" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p8m1zrc96pzj5k1i7i_08163324_yvontay.jpg?VersionId=9VTZLbjeF_MzSKjpfREfV5caXFwt6.D2&amp;h=12bd509b&amp;itok=nLXRl_P8" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370645"><h2>晚晴园明起举办特展 重现19世纪中国移民互助组织历史</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370646">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/COE_0903.jpg?VersionId=PhWxnB4b96zfhqnz6TT96Eik1k7Lv5mJ&amp;h=b18bdfa8&amp;itok=ZrGi4oll 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/COE_0903.jpg?VersionId=_PUU_rSRLBJPR8i_xx28qsteGlGJanP3&amp;h=b18bdfa8&amp;itok=Gb5xKMYL" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/COE_0903.jpg?VersionId=_PUU_rSRLBJPR8i_xx28qsteGlGJanP3&amp;h=b18bdfa8&amp;itok=Gb5xKMYL" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370646"><h2>车商赶在4月新税务实施前注册 货车巴士拥车证成价比中小型车还高</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370647">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p2hv7ucp436qlkhxv_08222537_homl.jpg?VersionId=ldyCG7mBwoU4woX6lkrJJ4BGridxbF9g&amp;h=206d0276&amp;itok=DuTwnPzN 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p2hv7ucp436qlkhxv_08222537_homl.jpg?VersionId=E7CyjTyB6vrnUQx3YQYuUOFk0gy.gCwO&amp;h=206d0276&amp;itok=2yX5KGbW" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p2hv7ucp436qlkhxv_08222537_homl.jpg?VersionId=E7CyjTyB6vrnUQx3YQYuUOFk0gy.gCwO&amp;h=206d0276&amp;itok=2yX5KGbW" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370647"><h2>虚报工资 骗政府津贴 公司董事监12周</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370648">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7mdf1j2ghe1q6pjo9rl_08171137_khcheng.jpg?VersionId=.DV3T1YmB6sf.KxE_jb3CYkAaDWcZajb&amp;h=a4830848&amp;itok=e8veaN8X 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7mdf1j2ghe1q6pjo9rl_08171137_khcheng.jpg?VersionId=RFoU3_4SPtolIKrN_wwQ5A6xH0QHRrc4&amp;h=a4830848&amp;itok=YbRlqih6" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7mdf1j2ghe1q6pjo9rl_08171137_khcheng.jpg?VersionId=RFoU3_4SPtolIKrN_wwQ5A6xH0QHRrc4&amp;h=a4830848&amp;itok=YbRlqih6" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370648"><h2>定格百年：新加坡大会堂 红头巾一砖一瓦建造</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370649">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/20230309_news_highcourt.jpg?VersionId=OOgSHdxuZ47jEul2Pg65dBSiLu7ek.N.&amp;itok=Zi9JZbei 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/20230309_news_highcourt.jpg?VersionId=DJ1aKomSWmd8bA8EdJKg2KQt.eYHJDlr&amp;itok=ktc4lJuu" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/20230309_news_highcourt.jpg?VersionId=DJ1aKomSWmd8bA8EdJKg2KQt.eYHJDlr&amp;itok=ktc4lJuu" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370649"><h2>老翁生前提名女儿受益未成 高庭仍令公积金局发放款项</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230309-1370650">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0309_CJ_doc7p7snm4a0co171s7y58g_08194337_khcheng.jpg?VersionId=El1vtV909vJwbd0Kzes_RscBK2h9w0d9&amp;h=e047f17b&amp;itok=Uw1RXB72 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p7snm4a0co171s7y58g_08194337_khcheng.jpg?VersionId=GTjVw7cxXr1CJmiS5m_DeO76h4umaotZ&amp;h=e047f17b&amp;itok=Q5VOblhw" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0309_CJ_doc7p7snm4a0co171s7y58g_08194337_khcheng.jpg?VersionId=GTjVw7cxXr1CJmiS5m_DeO76h4umaotZ&amp;h=e047f17b&amp;itok=Q5VOblhw" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230309-1370650"><h2>笑脸迎乘客赢服务奖</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">6小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="6小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370616">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/images/202303/20230308/liaoweixiang1.jpg?VersionId=PS3xpOFO0W_xSJGEKkEiX6wI8vqLQwwR&amp;h=7fe37fb8&amp;itok=H6gj2GM_ 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/images/202303/20230308/liaoweixiang1.jpg?VersionId=svAYGCo0l1cKbtrykzwlgA3LSn1qnt9R&amp;h=7fe37fb8&amp;itok=-YuzPB8_" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/images/202303/20230308/liaoweixiang1.jpg?VersionId=svAYGCo0l1cKbtrykzwlgA3LSn1qnt9R&amp;h=7fe37fb8&amp;itok=-YuzPB8_" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370616"><h2>曾在德明、南初任教 本地作家廖为祥逝世</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">16小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="16小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370477">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/file7p8jch96gl0gkbia459.jpg?VersionId=.Id8E3mqqgWEA8hGQ_Jx.hGdclbmNNFq&amp;itok=36UzWnNP 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/file7p8jch96gl0gkbia459.jpg?VersionId=2Iv8ISjxOI2954UwEv_UtAm32ioHlmVv&amp;itok=WBSJKcd_" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/file7p8jch96gl0gkbia459.jpg?VersionId=2Iv8ISjxOI2954UwEv_UtAm32ioHlmVv&amp;itok=WBSJKcd_" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370477"><h2>联合国任职34年 狮城妇助难民获表彰</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">20小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="20小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370583">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/20230308_news_tree-01.jpg?VersionId=prv04u3vLQDT_brgVl1erikax_0RuIFU&amp;itok=rZFvbWsG 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/20230308_news_tree-01.jpg?VersionId=xIUGdTmGFXvjC_AUr7U_YPthIFGLqIIO&amp;itok=Zx87eHDq" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/20230308_news_tree-01.jpg?VersionId=xIUGdTmGFXvjC_AUr7U_YPthIFGLqIIO&amp;itok=Zx87eHDq" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370583"><h2>中学生“格南树”旁拍照后 大树枝干突倒砸三车</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">20小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="20小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370479">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/man_usongjianbing_3.jpg?VersionId=hL2EP9w2i6CJXsOfGTUY2p3A0cdDYysQ&amp;h=2e055f64&amp;itok=tNfDMkHi 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/man_usongjianbing_3.jpg?VersionId=a3y5L5n.3qUi0jyntQbEmsSu1yRGpqk6&amp;h=2e055f64&amp;itok=oVQKnQqM" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/man_usongjianbing_3.jpg?VersionId=a3y5L5n.3qUi0jyntQbEmsSu1yRGpqk6&amp;h=2e055f64&amp;itok=oVQKnQqM" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370479"><h2>送煎饼安慰曼联球迷 餐馆半天送出7000片</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">20小时前</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                                                 
+      <span class="hidden-time-display" data-id="20小时前"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370278">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0308_CJ_doc7p81zwvbh6eu6ef4anu_07154650_ffchin.jpg?VersionId=XGhk2tzB._FGxiquUMq7EwxiBooXiVFY&amp;itok=xYA0oNcu 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0308_CJ_doc7p81zwvbh6eu6ef4anu_07154650_ffchin.jpg?VersionId=4QkmfvBayk9jP1gAXnL5F5Zyr5M2y4En&amp;itok=1vtiA6TV" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0308_CJ_doc7p81zwvbh6eu6ef4anu_07154650_ffchin.jpg?VersionId=4QkmfvBayk9jP1gAXnL5F5Zyr5M2y4En&amp;itok=1vtiA6TV" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370278"><h2>乌美奥迪服务中心机房爆炸 墙壁坍塌一人救火摔伤</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">08/03/2023</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                 
+      <span class="hidden-time-display" data-id="08/03/2023"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370279">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/ZB_0308_CJ_doc7p84ux5qp2qxjwzi81v_07154726_ffchin.jpg?VersionId=7twaug8F6a.baDRhassaU_L_2JMdhgx3&amp;itok=5b-gXrMf 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0308_CJ_doc7p84ux5qp2qxjwzi81v_07154726_ffchin.jpg?VersionId=c3oz_qXxEVPHoky6Wey7i6KaMabFmq_0&amp;itok=8950cdh5" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/ZB_0308_CJ_doc7p84ux5qp2qxjwzi81v_07154726_ffchin.jpg?VersionId=c3oz_qXxEVPHoky6Wey7i6KaMabFmq_0&amp;itok=8950cdh5" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370279"><h2>本地推出免费导览活动吸引外国旅客</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">08/03/2023</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                 
+      <span class="hidden-time-display" data-id="08/03/2023"></span>
+  </div>
+        <div class="col-12 col-lg-4">
+             
+            
+
+   <div class="article-type article-type-c">
+      <div class="row no-gutters">
+        <div class="col-auto col-lg-12 ">
+           <div class="article-type-img">
+               <a class="article-type-img-link" href="/news/singapore/story20230308-1370280">
+                                        <img class="lazyload" data-srcset="https://static.zaobao.com/s3fs-public/styles/newsletter_thumbnail_crop/public/2023-03/file7nprwjz9wuo161ntb3u9.jpg?VersionId=DFZ1ugyQXtAyWX_1NU.eVK0xJtsJvHxB&amp;itok=sL_zHR7M 768w, https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/file7nprwjz9wuo161ntb3u9.jpg?VersionId=ynkeAtcgW7_fdBseENDiEBDbLmG27WKd&amp;itok=giSE35cH" data-src="https://static.zaobao.com/s3fs-public/styles/article_medium_crop/public/2023-03/file7nprwjz9wuo161ntb3u9.jpg?VersionId=ynkeAtcgW7_fdBseENDiEBDbLmG27WKd&amp;itok=giSE35cH" title="" alt="" pinger-seen="true">
+                                    </a>
+            </div>
+        </div>
+        <div class="col col-lg-12 ">
+             <div class="article-type-content title-add-top-padding">
+                 <a class="article-type-link" href="/news/singapore/story20230308-1370280"><h2>调查：通胀加重压力 半数国人拟延后买房 更多人考虑预购组屋</h2></a>
+                <div class="article-type-meta">
+                     <span class="meta meta-published-date">08/03/2023</span>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+
+                 
+      <span class="hidden-time-display" data-id="08/03/2023"></span>
+  </div>
+     <script type="text/javascript">
+    (function($)
+    {
+      $(".col-12.col-lg-4").each( function(){
+      var createtime = $(this).find('.hidden-time-display').data('id');
+      $(this).find( ".article-type-c .meta-published-date" ).empty();
+      $(this).find( ".article-type-c .meta-published-date" ).html(createtime);
+      });
+    })(jQuery);
+</script>
 </div>

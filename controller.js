@@ -201,6 +201,7 @@ async function straitsTimes(req, res){
 }
 
 async function zaobao(req, res){
+  console.log('start zaobao');
   const browser = await puppeteer.launch({
     args: [
       "--disable-setuid-sandbox",
@@ -215,9 +216,9 @@ async function zaobao(req, res){
   const page = await browser.newPage();
   console.log("start zaobao")
   try {
-    await page.goto(`https://www.zaobao.com.sg/realtime`, { timeout: 600000, waitUntil: "networkidle2" });
+    await page.goto(`https://www.zaobao.com.sg/news/singapore`, { timeout: 600000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
-      const element = document.querySelector('#taxonomy-term-1');
+      const element = document.querySelector('.article-list');
       return element.outerHTML;
     });
     let dateNow = new Date();
