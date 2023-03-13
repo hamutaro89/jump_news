@@ -17,9 +17,9 @@ app.post('/scrape', (req, res) => {
   res.status(200).send(req.body);
 });
 
-app.get('/straitsTimes', straitsTimes);
-app.get('/straitsTimesAsia', straitsTimesAsia);
-app.get('/zaobao', zaobao);
+app.post('/straitsTimes', straitsTimes);
+app.post('/straitsTimesAsia', straitsTimesAsia);
+app.post('/zaobao', zaobao);
 app.post('/matchGoogle', matchGoogle);
 app.post('/matchPetal', matchPetal);
 
