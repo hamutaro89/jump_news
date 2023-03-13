@@ -8,4 +8,4 @@ COPY package*.json ./
 RUN npm ci
 COPY --chown=node:node . .
 EXPOSE 3000
-CMD [ "node", "index.js" ]
+CMD ["pm2-runtime", "ecosystem.config.js", "--only", "docker-nodejs-pm2-demo"]
