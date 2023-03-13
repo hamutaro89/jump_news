@@ -162,7 +162,7 @@ async function matchPetal(req, res){
 }
 
 async function straitsTimes(req, res){
-  console.log('starting');
+  console.log('starting straitstimes');
   const browser = await puppeteer.launch({
     args: [
       "--disable-setuid-sandbox",
@@ -192,6 +192,25 @@ async function straitsTimes(req, res){
     console.log("start straitstimes", error);
     res.status(400).send(error);
   }  
+  await browser.close();
+  res.status(200).send('start straitstimes done');
+}
+
+async function straitsTimesAsia(req, res){
+  console.log('starting');
+  const browser = await puppeteer.launch({
+    args: [
+      "--disable-setuid-sandbox",
+      "--no-sandbox",
+      "--single-process",
+      "--no-zygote",
+    ],
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_EXECUTABLE_PATH : puppeteer.executablePath()
+  });
+  let result = null;
+  const page = await browser.newPage();
+  console.log("start straitsTimes asia")
+  let dateNow = new Date();
 
   try {
     await page.goto(`https://www.straitstimes.com/asia`, { timeout: 600000, waitUntil: "networkidle0" });
@@ -213,7 +232,7 @@ async function straitsTimes(req, res){
   }  
   
   await browser.close();
-  res.status(200).send('start straitstimes done');
+  res.status(200).send('start straitstimes_asia done');
 }
 
 async function zaobao(req, res){
@@ -253,4 +272,4 @@ async function zaobao(req, res){
   res.status(200).send('start zaobao done');
 }
 
-export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao };
+export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia };
