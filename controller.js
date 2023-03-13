@@ -68,24 +68,22 @@ async function matchGoogle(req, res){
       await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" }); 
       const screenshot = await page.screenshot({
         type: 'jpeg',
-        quality: 70
+        quality: 70,
+        encoding: "base64"
       });
-      const imageData = screenshot.toString('base64');
+      let google = null;
       try{
         await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {                     
-          result.push({
-            _id: d._id,
-            google: true,
-            screenshot: imageData
-          })
+          google = true;
         });
       }catch(err){
-        result.push({
-          _id: d._id,
-          google: false,
-          screenshot: imageData
-        }) 
-      }        
+        google = false;
+      }
+      result.push({
+        _id: d._id,
+        google,
+        screenshot
+      })    
     }catch(err){
       console.log(err)   
     }
@@ -115,25 +113,43 @@ async function matchPetal(req, res){
   let result = [];
 
   const page = await browser.newPage();
+  await page.setViewport({ width: 800, height: 1200 });
   for(let d of data){
+    let error = false;
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" }); 
-      try{
-        await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
-          result.push({
-            _id: d._id,
-            petal: true
-          })
-        });
-      }catch(err){
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" });
+      const screenshot_petal = await page.screenshot({
+        type: 'jpeg',
+        quality: 70,
+        encoding: "base64"
+      });
+      let petal = null;
+
+      try {
+        await page.waitForSelector('.error-container', { timeout: 500 }).then(() => {          
+          console.log('Error: too frequent');
+          error = true;
+        });        
+      }catch {
+        try{
+          await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
+            petal = true;
+          });
+        }catch(err){
+          petal = false;          
+        }
         result.push({
           _id: d._id,
-          petal: false
-        }) 
+          petal,
+          screenshot_petal
+        })
       }
     }catch(err){
       console.log(err)   
+    }
+    if(error){
+      break;
     }
   } 
   await browser.close();
