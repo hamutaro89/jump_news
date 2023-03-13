@@ -65,7 +65,7 @@ async function matchGoogle(req, res){
   for(let d of data){
     try{
       console.log(d);
-      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" }); 
+      await page.goto(`https://www.google.com/search?q=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" }); 
       const screenshot = await page.screenshot({
         type: 'jpeg',
         quality: 70,
@@ -118,7 +118,7 @@ async function matchPetal(req, res){
     let error = false;
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 6000000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
@@ -177,7 +177,7 @@ async function straitsTimes(req, res){
   console.log("start straitsTimes")
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 600000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 60000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -213,7 +213,7 @@ async function straitsTimesAsia(req, res){
   let dateNow = new Date();
 
   try {
-    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 600000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 60000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
