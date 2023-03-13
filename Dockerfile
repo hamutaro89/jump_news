@@ -8,5 +8,5 @@ COPY package*.json ./
 RUN npm ci
 
 COPY --chown=node:node . .
-EXPOSE 3000
-CMD ["pm2-runtime", "start", "app.js"]
+EXPOSE 3001
+CMD ["pm2-runtime", "index.js"]
