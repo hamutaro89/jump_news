@@ -1,7 +1,12 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import AdblockerPlugin from 'puppeteer-extra-plugin-adblocker';
 import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
+
+puppeteer.use(StealthPlugin());
+puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
