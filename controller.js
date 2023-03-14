@@ -104,8 +104,7 @@ async function matchGoogle(req, res){
 
 async function matchPetal(req, res){
   console.log("start Match Petal");
-  puppeteer.use(StealthPlugin());
-  puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
+  await puppeteer.use(StealthPlugin());
   let data = req.body;
   const browser = await puppeteer.launch({
     headless: true,
