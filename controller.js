@@ -109,6 +109,7 @@ async function matchPetal(req, res){
   console.log("start Match Petal");
   let data = req.body;
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
@@ -125,48 +126,7 @@ async function matchPetal(req, res){
     domain: "www.petalsearch.com",
     name: "P_PERF",
     value: "%7B%22ml%22%3A%22en-gb%22%2C%22locale%22%3A%22zh-cn%22%2C%22sregion%22%3A%22sg%22%2C%22s_safe%22%3A%22off%22%7D"
-  },{
-    domain: "www.petalsearch.com",
-    name: "P_UA",
-    value: "%7B%22biw%22%3A1202%2C%22bih%22%3A1050%2C%22tz%22%3A%22GMT%2B08%3A00%22%2C%22vendor%22%3A%22Samsung%22%2C%22equipment_model%22%3A%22SM-G981B%22%7D"
-  },{
-    domain: "www.petalsearch.com",
-    name: "P_PID",
-    value: "cGV0YWw6TzIzMFQ0NVdyYkczWVk5cFpNWWI2UFN3ZkhFNVRkVmhvVlpCVHpEVW05WHZvQVJvY3Z2ZU13Y0FzZEtKemZIUkNqRzE6MGJlOTFhZjU2YTAxMDhjMTE4MTI2N2VlOTUwZjgzNmYwNjFkNDAwMmViMTkwYTVlZTNlODBjZjA4MDRlZGNiZjphOWExZmM2YzM3ODczM2I0ODZjNjlhZjQ2OGQ1NTMyZA=="
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_idts_HuaweiSearch_www_petalsearch_com",
-    value: "1678762737074"
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_viewts_HuaweiSearch_www_petalsearch_com",
-    value: "1678762909775"
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_refts_HuaweiSearch_www_petalsearch_com",
-    value: "1668133858570"
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_id_HuaweiSearch_www_petalsearch_com",
-    value: "15acddb3c3304f5b9e870040209e65be"
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_idn_HuaweiSearch_www_petalsearch_com",
-    value: "368302d96a584dfda294a305b6038de2"
-  },{
-    domain: "www.petalsearch.com",
-    name: "X-CSRF-TOKEN",
-    value: "C3dJhPr7pSMOzCw7OuH0v49E3dOruMvVfICfGybhY/k="
-  },{
-    domain: "www.petalsearch.com",
-    name: "HW_idvc_HuaweiSearch_www_petalsearch_com",
-    value: "374"
-  },{
-    domain: "www.petalsearch.com",
-    name: "dc67616b8be54bc28a855b19c81b2c16",
-    value: "WyI0MjY0NjMyODY2Il0"
-  })
-  
+  });  
   for(let d of data){
     let error = false;
     try{      
