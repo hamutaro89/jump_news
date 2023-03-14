@@ -10,6 +10,7 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
@@ -55,6 +56,7 @@ async function matchGoogle(req, res){
   console.log("start Match google");
   let data = req.body;
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
@@ -124,12 +126,12 @@ async function matchPetal(req, res){
   let result = [];
 
   const page = await browser.newPage();
-  await page.setViewport({ width: 800, height: 1200 });
+  await page.setViewport({ width: 1000, height: 1200 });
   for(let d of data){
     let error = false;
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
@@ -175,6 +177,7 @@ async function matchPetal(req, res){
 async function straitsTimes(req, res){
   console.log('starting straitstimes');
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
@@ -210,6 +213,7 @@ async function straitsTimes(req, res){
 async function straitsTimesAsia(req, res){
   console.log('starting');
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
@@ -249,6 +253,7 @@ async function straitsTimesAsia(req, res){
 async function zaobao(req, res){
   console.log('start zaobao');
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
