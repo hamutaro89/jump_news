@@ -150,6 +150,22 @@ async function matchPetal(req, res){
     domain: "www.petalsearch.com",
     name: "HW_id_HuaweiSearch_www_petalsearch_com",
     value: "f0b799773bb64c03a017e71a32e4242f"
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_idn_HuaweiSearch_www_petalsearch_com",
+    value: "368302d96a584dfda294a305b6038de2"
+  },{
+    domain: "www.petalsearch.com",
+    name: "X-CSRF-TOKEN",
+    value: "C3dJhPr7pSMOzCw7OuH0v49E3dOruMvVfICfGybhY/k="
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_idvc_HuaweiSearch_www_petalsearch_com",
+    value: "374"
+  },{
+    domain: "www.petalsearch.com",
+    name: "dc67616b8be54bc28a855b19c81b2c16",
+    value: "WyI0MjY0NjMyODY2Il0"
   })
   
   for(let d of data){
