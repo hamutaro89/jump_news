@@ -122,16 +122,25 @@ async function matchPetal(req, res){
 
   const page = await browser.newPage();
   await page.setViewport({ width: 1000, height: 1200 });
+  await page.setCookie({
+    domain: "www.petalsearch.com",
+    name: "P_PERF",
+    value: "%7B%22ml%22%3A%22en-gb%22%2C%22locale%22%3A%22zh-cn%22%2C%22sregion%22%3A%22sg%22%2C%22s_safe%22%3A%22off%22%7D"
+  })
+  
   for(let d of data){
     let error = false;
-    try{
+    try{      
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&from=PCweb&ps=10&pn=1&sid=li75fbgtex86janyc0cx39rwipi0650n&qs=1&page_start=0&locale=zh-cn&sregion=sg&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" });
+      let co = await page.cookies();
+      console.log(co)
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
         encoding: "base64"
       });
+      
       let petal = null;
 
       try {
