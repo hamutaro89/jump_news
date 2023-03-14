@@ -5,9 +5,6 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
 
-puppeteer.use(StealthPlugin());
-puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
-
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
     headless: true,
@@ -107,6 +104,8 @@ async function matchGoogle(req, res){
 
 async function matchPetal(req, res){
   console.log("start Match Petal");
+  puppeteer.use(StealthPlugin());
+  puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
   let data = req.body;
   const browser = await puppeteer.launch({
     headless: true,
