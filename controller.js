@@ -135,6 +135,8 @@ async function matchPetal(req, res){
       await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" });
       let co = await page.cookies();
       console.log(co)
+      let url = await page.url();
+      console.log(url)
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
