@@ -126,7 +126,7 @@ async function matchPetal(req, res){
     let error = false;
     try{
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&from=PCweb&ps=10&pn=1&sid=li75fbgtex86janyc0cx39rwipi0650n&qs=1&page_start=0&locale=zh-cn&sregion=sg&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
