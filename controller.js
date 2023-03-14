@@ -121,7 +121,7 @@ async function matchPetal(req, res){
   let result = [];
 
   const page = await browser.newPage();
-  await page.setViewport({ width: 1000, height: 1200 });
+  await page.setViewport({ width: 900, height: 1200 });
   await page.setCookie({
     url: "https://www.petalsearch.com",
     name: "P_PERF",
