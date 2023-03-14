@@ -5,8 +5,6 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
 
-puppeteer.use(StealthPlugin());
-
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
     headless: true,
