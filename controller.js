@@ -5,6 +5,9 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
 
+puppeteer.use(StealthPlugin());
+puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
+
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
     headless: true,
@@ -108,10 +111,7 @@ async function matchPetal(req, res){
   const browser = await puppeteer.launch({
     headless: true,
     args: [
-      "--disable-setuid-sandbox",
       "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
      ],
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
