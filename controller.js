@@ -123,7 +123,7 @@ async function matchPetal(req, res){
   const page = await browser.newPage();
   await page.setViewport({ width: 1000, height: 1200 });
   await page.setCookie({
-    domain: "www.petalsearch.com",
+    url: "https://www.petalsearch.com",
     name: "P_PERF",
     value: "%7B%22ml%22%3A%22en-gb%22%2C%22locale%22%3A%22zh-cn%22%2C%22sregion%22%3A%22sg%22%2C%22s_safe%22%3A%22off%22%7D"
   });  
@@ -131,7 +131,7 @@ async function matchPetal(req, res){
     let error = false;
     try{      
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&sid=2krmnzinus2wh1x34xypjk7f2htmzu9f&qs=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
       let co = await page.cookies();
       console.log(co)
       const screenshot_petal = await page.screenshot({
