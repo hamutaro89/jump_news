@@ -6,7 +6,6 @@ import fs from 'fs';
 dotenv.config();
 
 puppeteer.use(StealthPlugin());
-puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 const scrapeLogic = async function(req, res){
   const browser = await puppeteer.launch({
