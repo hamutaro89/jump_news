@@ -129,11 +129,11 @@ async function matchPetal(req, res){
   },{
     domain: "www.petalsearch.com",
     name: "P_UA",
-    value: "%7B%22biw%22%3A990%2C%22bih%22%3A1050%2C%22tz%22%3A%22GMT%2B08%3A00%22%7D"
+    value: "%7B%22biw%22%3A1202%2C%22bih%22%3A1050%2C%22tz%22%3A%22GMT%2B08%3A00%22%2C%22vendor%22%3A%22Samsung%22%2C%22equipment_model%22%3A%22SM-G981B%22%7D"
   },{
     domain: "www.petalsearch.com",
     name: "P_PID",
-    value: "cGV0YWw6RzVuRk1UbkY4djBLVWRBUkdnYWJnWnNOWHN3MC9aYmlVZkJoOGtpejFWOVIwZS9OVjI3WnpMRHdlWm14Tnk5VlVpSmNQYm89OmNiMGYxOGMzY2U3ZWU3MGFiNDdiOGFjZTg3NjdjMjcxOGI1MjIwM2EyMGI0OTRlNzI0MmU3YWY0MTI1OGU3ZGQ6NTlkMzE1ZGU2ZTYxNzRlMTljODMxZWE0NTdkNTllZjI="
+    value: "cGV0YWw6TzIzMFQ0NVdyYkczWVk5cFpNWWI2UFN3ZkhFNVRkVmhvVlpCVHpEVW05WHZvQVJvY3Z2ZU13Y0FzZEtKemZIUkNqRzE6MGJlOTFhZjU2YTAxMDhjMTE4MTI2N2VlOTUwZjgzNmYwNjFkNDAwMmViMTkwYTVlZTNlODBjZjA4MDRlZGNiZjphOWExZmM2YzM3ODczM2I0ODZjNjlhZjQ2OGQ1NTMyZA=="
   },{
     domain: "www.petalsearch.com",
     name: "HW_idts_HuaweiSearch_www_petalsearch_com",
@@ -145,11 +145,11 @@ async function matchPetal(req, res){
   },{
     domain: "www.petalsearch.com",
     name: "HW_refts_HuaweiSearch_www_petalsearch_com",
-    value: "1678762739992"
+    value: "1668133858570"
   },{
     domain: "www.petalsearch.com",
     name: "HW_id_HuaweiSearch_www_petalsearch_com",
-    value: "f0b799773bb64c03a017e71a32e4242f"
+    value: "15acddb3c3304f5b9e870040209e65be"
   },{
     domain: "www.petalsearch.com",
     name: "HW_idn_HuaweiSearch_www_petalsearch_com",
