@@ -126,17 +126,39 @@ async function matchPetal(req, res){
     domain: "www.petalsearch.com",
     name: "P_PERF",
     value: "%7B%22ml%22%3A%22en-gb%22%2C%22locale%22%3A%22zh-cn%22%2C%22sregion%22%3A%22sg%22%2C%22s_safe%22%3A%22off%22%7D"
+  },{
+    domain: "www.petalsearch.com",
+    name: "P_UA",
+    value: "%7B%22biw%22%3A990%2C%22bih%22%3A1050%2C%22tz%22%3A%22GMT%2B08%3A00%22%7D"
+  },{
+    domain: "www.petalsearch.com",
+    name: "P_PID",
+    value: "cGV0YWw6RzVuRk1UbkY4djBLVWRBUkdnYWJnWnNOWHN3MC9aYmlVZkJoOGtpejFWOVIwZS9OVjI3WnpMRHdlWm14Tnk5VlVpSmNQYm89OmNiMGYxOGMzY2U3ZWU3MGFiNDdiOGFjZTg3NjdjMjcxOGI1MjIwM2EyMGI0OTRlNzI0MmU3YWY0MTI1OGU3ZGQ6NTlkMzE1ZGU2ZTYxNzRlMTljODMxZWE0NTdkNTllZjI="
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_idts_HuaweiSearch_www_petalsearch_com",
+    value: "1678762737074"
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_viewts_HuaweiSearch_www_petalsearch_com",
+    value: "1678762909775"
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_refts_HuaweiSearch_www_petalsearch_com",
+    value: "1678762739992"
+  },{
+    domain: "www.petalsearch.com",
+    name: "HW_id_HuaweiSearch_www_petalsearch_com",
+    value: "f0b799773bb64c03a017e71a32e4242f"
   })
   
   for(let d of data){
     let error = false;
     try{      
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}`, { timeout: 600000, waitUntil: "networkidle2" });
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&sid=2krmnzinus2wh1x34xypjk7f2htmzu9f&qs=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
       let co = await page.cookies();
       console.log(co)
-      let url = await page.url();
-      console.log(url)
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
