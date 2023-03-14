@@ -131,15 +131,13 @@ async function matchPetal(req, res){
     let error = false;
     try{      
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, { timeout: 600000, waitUntil: "networkidle2" });
-      let co = await page.cookies();
-      console.log(co)
+      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, 
+        { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
         quality: 70,
         encoding: "base64"
-      });
-      
+      });      
       let petal = null;
 
       try {
