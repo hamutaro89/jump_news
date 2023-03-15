@@ -94,7 +94,6 @@ async function matchGoogle(req, res){
 async function matchPetal(req, res){
   console.log("start Match Petal");
   let data = req.body;
-  await puppeteer.use(StealthPlugin());  
   const browser = await callPuppeteer();
   const page = await browser.newPage();
   let result = [];
