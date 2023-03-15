@@ -99,17 +99,12 @@ async function matchPetal(req, res){
   const page = await browser.newPage();
   let result = [];
 
-  await page.setViewport({ width: 900, height: 1200 });
-  await page.setCookie({
-    url: "https://www.petalsearch.com",
-    name: "P_PERF",
-    value: "%7B%22ml%22%3A%22en-gb%22%2C%22locale%22%3A%22zh-cn%22%2C%22sregion%22%3A%22sg%22%2C%22s_safe%22%3A%22off%22%7D"
-  });  
+  await page.setViewport({ width: 420, height: 1600 }); 
   for(let d of data){
     let error = false;
     try{      
       console.log(d);
-      await page.goto(`https://www.petalsearch.com/search?query=${d.title}&channel=all&from=PCweb&ps=10&pn=1&page_start=0&sregion=sg&locale=zh-cn&ml=en-gb`, 
+      await page.goto(`https://search-dre.dt.dbankcloud.com/search?query=${d.title}&channel=all&&page_start=0&sregion=sg&locale=en-gb&ml=en-gb`, 
         { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
@@ -125,7 +120,7 @@ async function matchPetal(req, res){
         });        
       }catch {
         try{
-          await page.waitForSelector('.news-card', { timeout: 1500 }).then( async () => {
+          await page.waitForSelector('.news-container', { timeout: 1500 }).then( async () => {
             petal = true;
           });
         }catch(err){
