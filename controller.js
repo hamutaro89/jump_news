@@ -1,6 +1,5 @@
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import AdblockerPlugin from 'puppeteer-extra-plugin-adblocker';
 import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
@@ -52,19 +51,9 @@ const scrapeLogic = async function(req, res){
 async function matchGoogle(req, res){
   console.log("start Match google");
   let data = req.body;
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
-  });
-  let result = [];
-
+  const browser = await callPuppeteer();
   const page = await browser.newPage();
+  let result = [];
   await page.setViewport({ width: 800, height: 1200 });
   for(let d of data){
     try{
@@ -104,26 +93,12 @@ async function matchGoogle(req, res){
 
 async function matchPetal(req, res){
   console.log("start Match Petal");
-  await puppeteer.use(StealthPlugin());
   let data = req.body;
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-      '--disable-infobars',
-      '--window-position=0,0',
-      '--ignore-certifcate-errors',
-      '--ignore-certifcate-errors-spki-list',
-      '--user-agent="user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"'
-     ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
-  });
+  await puppeteer.use(StealthPlugin());  
+  const browser = await callPuppeteer();
+  const page = await browser.newPage();
   let result = [];
 
-  const page = await browser.newPage();
   await page.setViewport({ width: 900, height: 1200 });
   await page.setCookie({
     url: "https://www.petalsearch.com",
@@ -180,19 +155,9 @@ async function matchPetal(req, res){
 
 async function straitsTimes(req, res){
   console.log('starting straitstimes');
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_EXECUTABLE_PATH : puppeteer.executablePath()
-  });
   let result = null;
+  const browser = await callPuppeteer();
   const page = await browser.newPage();
-  console.log("start straitsTimes")
   let dateNow = new Date();
   try {
     await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 60000, waitUntil: "networkidle0" });
@@ -215,22 +180,11 @@ async function straitsTimes(req, res){
 }
 
 async function straitsTimesAsia(req, res){
-  console.log('starting');
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_EXECUTABLE_PATH : puppeteer.executablePath()
-  });
+  console.log("start straitsTimes asia");
   let result = null;
+  const browser = await callPuppeteer();
   const page = await browser.newPage();
-  console.log("start straitsTimes asia")
   let dateNow = new Date();
-
   try {
     await page.goto(`https://www.straitstimes.com/asia`, { timeout: 60000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
@@ -255,22 +209,11 @@ async function straitsTimesAsia(req, res){
 }
 
 async function straitsTimesGlobal(req, res){
-  console.log('starting');
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_EXECUTABLE_PATH : puppeteer.executablePath()
-  });
+  console.log("start straitsTimes global");
   let result = null;
-  const page = await browser.newPage();
-  console.log("start straitsTimes global")
+  const browser = await callPuppeteer();
+  const page = await browser.newPage(); 
   let dateNow = new Date();
-
   try {
     await page.goto(`https://www.straitstimes.com/global`, { timeout: 60000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
@@ -295,21 +238,10 @@ async function straitsTimesGlobal(req, res){
 }
 
 async function zaobao(req, res){
-  console.log('start zaobao');
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
-  });
+  console.log('start zaobao');  
   let result = null;
-
+  const browser = await callPuppeteer();
   const page = await browser.newPage();
-  console.log("start zaobao")
   try {
     await page.goto(`https://www.zaobao.com.sg/news/singapore`, { timeout: 600000, waitUntil: "networkidle2" });
     result = await page.evaluate(() => {
@@ -330,6 +262,20 @@ async function zaobao(req, res){
   }
   await browser.close();
   res.status(200).send('start zaobao done');
+}
+
+async function callPuppeteer(){
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: [
+      "--disable-setuid-sandbox",
+      "--no-sandbox",
+      "--single-process",
+      "--no-zygote",
+    ],
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
+  });
+  return browser;
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal };
