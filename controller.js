@@ -104,7 +104,7 @@ async function matchPetal(req, res){
     let error = false;
     try{      
       console.log(d);
-      await page.goto(`https://search-dre.dt.dbankcloud.com/search?query=${d.title}&channel=all&&page_start=0&sregion=sg&locale=en-gb&ml=en-gb`, 
+      await page.goto(`https://search-dre.dt.dbankcloud.com/search?query=${d.title}&channel=all&&page_start=0&sregion=sg&locale=zh-cn&ml=zh-cn`, 
         { timeout: 600000, waitUntil: "networkidle2" });
       const screenshot_petal = await page.screenshot({
         type: 'jpeg',
