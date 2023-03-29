@@ -154,7 +154,7 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 60000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -180,7 +180,7 @@ async function straitsTimesAsia(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 60000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/asia`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
@@ -209,7 +209,7 @@ async function straitsTimesGlobal(req, res){
   const page = await browser.newPage(); 
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/global`, { timeout: 60000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/global`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
