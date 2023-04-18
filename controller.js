@@ -141,14 +141,18 @@ async function straitsTimes(req, res){
   console.log('starting straitstimes');
   let result = null;
   const browser = await callPuppeteer();
+  console.log(browser);
   const page = await browser.newPage();
+  console.log(page);
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 16000, waitUntil: "networkidle0" });
+    console.log(page);
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
-    });    
+    });
+    console.log(result);
     result = `<div>${dateNow}</div>` + result;
     await fs.writeFile('./public/straitstimes.txt', result, err => {
       if (err) {
