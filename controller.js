@@ -4,7 +4,16 @@ import fs from 'fs';
 dotenv.config();
 
 async function scrapeLogic(req, res){
-  const browser = await callPuppeteer();
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: [
+      "--disable-setuid-sandbox",
+      "--no-sandbox",
+      "--single-process",
+      "--no-zygote",
+    ],
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
+  });
   try {    
     const page = await browser.newPage();
 
@@ -141,30 +150,26 @@ async function straitsTimes(req, res){
   console.log('starting straitstimes');
   let result = null;
   const browser = await callPuppeteer();
-  console.log(browser);
   const page = await browser.newPage();
-  console.log(page);
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.baidu.com`, { timeout: 160000, waitUntil: "networkidle0" });
-    console.log(page);
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
-      const element = document.querySelector('.s-hotsearch-content');
+      const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
-    });
-    console.log(result);
+    });    
     result = `<div>${dateNow}</div>` + result;
     await fs.writeFile('./public/straitstimes.txt', result, err => {
       if (err) {
         console.error(err);
       }
-    });  
-    res.status(200).send('start straitstimes done');  
+    });    
   } catch (error) {
     console.log("start straitstimes", error);
     res.status(400).send(error);
   }  
-  await browser.close();  
+  await browser.close();
+  res.status(200).send('start straitstimes done');
 }
 
 async function straitsTimesAsia(req, res){
