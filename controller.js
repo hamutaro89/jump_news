@@ -146,7 +146,7 @@ async function straitsTimes(req, res){
   console.log(page);
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 16000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.baidu.com`, { timeout: 160000, waitUntil: "networkidle0" });
     console.log(page);
     result = await page.evaluate(() => {
       const element = document.querySelector('.s-hotsearch-content');
