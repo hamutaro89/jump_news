@@ -144,7 +144,7 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 16000, waitUntil: "networkidle0" });
+    await page.goto(`https://www.straitstimes.com/singapore`);
     console.log(page);
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
