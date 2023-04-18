@@ -154,13 +154,13 @@ async function straitsTimes(req, res){
       if (err) {
         console.error(err);
       }
-    });    
+    });  
+    res.status(200).send('start straitstimes done');  
   } catch (error) {
     console.log("start straitstimes", error);
     res.status(400).send(error);
   }  
-  await browser.close();
-  res.status(200).send('start straitstimes done');
+  await browser.close();  
 }
 
 async function straitsTimesAsia(req, res){
