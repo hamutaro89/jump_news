@@ -13,9 +13,6 @@ async function scrapeLogic(req, res){
     // Set screen size
     await page.setViewport({width: 1080, height: 1024});
 
-    // Type into search box
-    await page.type('.search-box__input', 'automate beyond recorder');
-
     // Locate the full title with a unique string
     const textSelector = await page.waitForSelector(
       '.block-block-most-popular'
