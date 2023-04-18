@@ -8,7 +8,7 @@ async function scrapeLogic(req, res){
   try {    
     const page = await browser.newPage();
 
-    await page.goto('https://developer.chrome.com/');
+    await page.goto('https://www.straitstimes.com/singapore');
 
     // Set screen size
     await page.setViewport({width: 1080, height: 1024});
@@ -16,14 +16,9 @@ async function scrapeLogic(req, res){
     // Type into search box
     await page.type('.search-box__input', 'automate beyond recorder');
 
-    // Wait and click on first result
-    const searchResultSelector = '.search-box__link';
-    await page.waitForSelector(searchResultSelector);
-    await page.click(searchResultSelector);
-
     // Locate the full title with a unique string
     const textSelector = await page.waitForSelector(
-      'text/Customize and automate'
+      '.block-block-most-popular'
     );
     console.log(textSelector);
     const fullTitle = await textSelector.evaluate(el => el.textContent);
@@ -144,13 +139,11 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
-    await page.goto(`https://www.straitstimes.com/singapore`);
-    console.log(page);
+    await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
     });    
-    console.log(result);
     result = `<div>${dateNow}</div>` + result;
     await fs.writeFile('./public/straitstimes.txt', result, err => {
       if (err) {
