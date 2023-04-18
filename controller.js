@@ -1,20 +1,10 @@
 import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
 
-const scrapeLogic = async function(req, res){
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
-  });
+async function scrapeLogic(req, res){
+  const browser = await callPuppeteer();
   try {    
     const page = await browser.newPage();
 
