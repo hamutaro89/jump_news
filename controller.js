@@ -149,7 +149,7 @@ async function straitsTimes(req, res){
     await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 16000, waitUntil: "networkidle0" });
     console.log(page);
     result = await page.evaluate(() => {
-      const element = document.querySelector('.block-block-most-popular');
+      const element = document.querySelector('.s-hotsearch-content');
       return element.outerHTML;
     });
     console.log(result);
