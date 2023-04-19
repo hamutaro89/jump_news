@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
+    "start": "pm2 start npm --name index.js -- run start",
     "dev": "nodemon index.js"
   },
   "type": "module",
