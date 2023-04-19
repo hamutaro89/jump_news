@@ -12,7 +12,7 @@ async function scrapeLogic(req, res){
       "--single-process",
       "--no-zygote",
     ],
-    executablePath: process.env.NODE_ENV == 'production' ? puppeteer.executablePath() : puppeteer.executablePath()
+    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   try {    
     const page = await browser.newPage();
