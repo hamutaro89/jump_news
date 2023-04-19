@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/hamutaro89/jump_news#readme",
   "dependencies": {
-    "@sparticuz/chromium": "^111.0.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "pm2": "^5.2.2",
