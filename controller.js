@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer-extra';
+import chromium from "@sparticuz/chromium";
 import dotenv from 'dotenv';
 import fs from 'fs';
 dotenv.config();
@@ -12,7 +13,7 @@ async function scrapeLogic(req, res){
       "--single-process",
       "--no-zygote",
     ],
-    executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
+    executablePath: await chromium.executablePath()
   });
   try {    
     const page = await browser.newPage();
