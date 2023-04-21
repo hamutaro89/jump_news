@@ -65,7 +65,7 @@ async function matchGoogle(req, res){
       });
       let google = null;
       try{
-        await page.waitForSelector('.QXROIe', { timeout: 1500 }).then( async () => {                     
+        await page.waitForSelector('.QXROIe', { timeout: 3000 }).then( async () => {                     
           google = true;
         });
       }catch(err){
