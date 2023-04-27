@@ -87,6 +87,7 @@ async function matchGoogle(req, res){
       console.error(err);
     }
   });
+  console.log('start match google done');
   res.status(200).send('start match google done');
 }
 
