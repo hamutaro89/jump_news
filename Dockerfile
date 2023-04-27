@@ -9,5 +9,4 @@ RUN npm ci
 
 COPY --chown=node:node . .
 EXPOSE 3000
-#CMD ["npx", "pm2-runtime", "start", "index.js"] back4app
-CMD ["node", "index.js"]
+CMD ["npx", "pm2-runtime", "start", "index.js"]
