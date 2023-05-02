@@ -281,8 +281,7 @@ async function cacheGoogle(){
   })
   await client.connect();
   let data = await client.get('matchGoogle');
-  console.log(data);
-  return data;
+  res.status(200).send(data);
 }
 
 async function storeRedis(key, val){
