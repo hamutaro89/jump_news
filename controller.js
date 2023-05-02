@@ -278,7 +278,7 @@ async function callPuppeteer(){
 
 async function storeRedis(key, val){
   const client = createClient({
-    url: 'rediss://red-ch86mqdgk4q7lmocupgg:45aDBqWj2vQb5zj0XsKe53X3ENB1YfS8@singapore-redis.render.com:6379'   
+    url: process.env.REDIS_PATH  
   })
   await client.connect();
   await client.set(key, val);
