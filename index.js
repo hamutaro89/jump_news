@@ -1,5 +1,5 @@
 import express from 'express'
-import { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal } from './controller.js';
+import { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal, cacheGoogle } from './controller.js';
 
 const app = express();
 const port = 3000;
@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/scrapeUrl', scrapeLogic);
+app.get('/cacheGoogle', cacheGoogle);
 
 app.post('/scrape', (req, res) => {
   console.log(req.body);

@@ -275,6 +275,15 @@ async function callPuppeteer(){
   return browser;
 }
 
+async function cacheGoogle(){
+  const client = createClient({
+    url: process.env.REDIS_PATH  
+  })
+  await client.connect();
+  let data = await client.get('matchGoogle');
+  console.log(data);
+  return data;
+}
 
 async function storeRedis(key, val){
   const client = createClient({
@@ -285,4 +294,4 @@ async function storeRedis(key, val){
   await client.disconnect();
 }
 
-export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal };
+export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal, cacheGoogle };
