@@ -275,7 +275,7 @@ async function callPuppeteer(){
   return browser;
 }
 
-async function cacheGoogle(){
+async function cacheGoogle(req, res){
   const client = createClient({
     url: process.env.REDIS_PATH  
   })
