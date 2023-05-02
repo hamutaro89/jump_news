@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import dotenv from 'dotenv';
 import fs from 'fs';
+import { createClient } from 'redis';
 dotenv.config();
 
 async function scrapeLogic(req, res){
@@ -81,6 +82,8 @@ async function matchGoogle(req, res){
     }
   }
   await browser.close();  
+
+  await storeRedis('matchGoogle', JSON.stringify(result));
   
   await fs.writeFile('./public/matchGoogle.json', JSON.stringify(result), err => {
     if (err) {
@@ -270,6 +273,20 @@ async function callPuppeteer(){
     executablePath: process.env.NODE_ENV == 'production' ? process.env.PUPPETEER_PATH : puppeteer.executablePath()
   });
   return browser;
+}
+
+
+async function storeRedis(key, val){
+  const client = createClient({
+    password: 'VCP9n3ZCCgDSd7M8SyPobBDxlw6DO4dv',
+    socket: {
+      host: 'redis-14711.c252.ap-southeast-1-1.ec2.cloud.redislabs.com',
+      port: 14711
+    }      
+  })
+  await client.connect();
+  await client.set(key, val);
+  await client.disconnect();
 }
 
 export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal };
