@@ -3,7 +3,7 @@ USER node
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
 # WORKDIR /home/node  back4app, /usr/src/app  render
-WORKDIR /usr/src/app
+WORKDIR /home/node/app
 COPY package*.json ./
 RUN npm ci
 
