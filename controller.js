@@ -165,7 +165,7 @@ async function straitsTimes(req, res){
     });    
     console.log(result);
     result = `<div>${dateNow}</div>` + result;
-    await storeRedis('straitstimes', JSON.stringify(result));
+    await storeRedis('straitstimes', result);
   } catch (error) {
     console.log("start straitstimes", error);
     res.status(400).send(error);
@@ -189,7 +189,7 @@ async function straitsTimesAsia(req, res){
 
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await storeRedis('straitstimes_asia', JSON.stringify(result));
+    await storeRedis('straitstimes_asia', result);
   } catch (error) {
     console.log("start straitstimes_asia", error);
     res.status(400).send(error);
@@ -214,7 +214,7 @@ async function straitsTimesGlobal(req, res){
 
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await storeRedis('straitstimes_global', JSON.stringify(result));   
+    await storeRedis('straitstimes_global', result);   
   } catch (error) {
     console.log("start straitstimes_global", error);
     res.status(400).send(error);
@@ -238,7 +238,7 @@ async function zaobao(req, res){
     let dateNow = new Date();
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await storeRedis('zaobao', JSON.stringify(result)); 
+    await storeRedis('zaobao', result); 
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
