@@ -157,17 +157,15 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
+    console.log(browser);
     await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
       return element.outerHTML;
     });    
+    console.log(result);
     result = `<div>${dateNow}</div>` + result;
-    await fs.writeFile('./public/straitstimes.txt', result, err => {
-      if (err) {
-        console.error(err);
-      }
-    });    
+    await storeRedis('straitstimes', JSON.stringify(result));
   } catch (error) {
     console.log("start straitstimes", error);
     res.status(400).send(error);
@@ -191,11 +189,7 @@ async function straitsTimesAsia(req, res){
 
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await fs.writeFile('./public/straitstimes_asia.txt', result, err => {
-      if (err) {
-        console.error(err);
-      }
-    });    
+    await storeRedis('straitstimes_asia', JSON.stringify(result));
   } catch (error) {
     console.log("start straitstimes_asia", error);
     res.status(400).send(error);
@@ -220,11 +214,7 @@ async function straitsTimesGlobal(req, res){
 
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await fs.writeFile('./public/straitstimes_global.txt', result, err => {
-      if (err) {
-        console.error(err);
-      }
-    });    
+    await storeRedis('straitstimes_global', JSON.stringify(result));   
   } catch (error) {
     console.log("start straitstimes_global", error);
     res.status(400).send(error);
@@ -248,11 +238,7 @@ async function zaobao(req, res){
     let dateNow = new Date();
     result = `<div>${dateNow}</div>` + result;
     console.log(result);
-    await fs.writeFile('./public/zaobao.txt', result, err => {
-      if (err) {
-        console.error(err);
-      }
-    });
+    await storeRedis('zaobao', JSON.stringify(result)); 
   } catch (error) {
     console.log(error);
     res.status(400).send(error);
@@ -275,12 +261,12 @@ async function callPuppeteer(){
   return browser;
 }
 
-async function cacheGoogle(req, res){
+async function getCache(req, res){
   const client = createClient({
     url: process.env.REDIS_PATH  
   })
   await client.connect();
-  let data = await client.get('matchGoogle');
+  let data = await client.get(req.params.cacheName);
   res.status(200).send(data);
 }
 
@@ -293,4 +279,4 @@ async function storeRedis(key, val){
   await client.disconnect();
 }
 
-export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal, cacheGoogle };
+export { scrapeLogic, matchGoogle, matchPetal, straitsTimes, zaobao, straitsTimesAsia, straitsTimesGlobal, getCache };
