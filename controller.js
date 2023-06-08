@@ -85,11 +85,6 @@ async function matchGoogle(req, res){
 
   await storeRedis('matchGoogle', JSON.stringify(result));
   
-  await fs.writeFile('./public/matchGoogle.json', JSON.stringify(result), err => {
-    if (err) {
-      console.error(err);
-    }
-  });
   console.log('start match google done');
   res.status(200).send('start match google done');
 }
@@ -142,11 +137,9 @@ async function matchPetal(req, res){
     }
   } 
   await browser.close();
-  await fs.writeFile('./public/matchPetal.json', JSON.stringify(result), err => {
-    if (err) {
-      console.error(err);
-    }
-  });
+  
+  await storeRedis('matchGoogle', JSON.stringify(result));
+
   res.status(200).send('start match petal done');
 }
 
@@ -157,7 +150,6 @@ async function straitsTimes(req, res){
   const page = await browser.newPage();
   let dateNow = new Date();
   try {
-    console.log(browser);
     await page.goto(`https://www.straitstimes.com/singapore`, { timeout: 160000, waitUntil: "networkidle0" });
     result = await page.evaluate(() => {
       const element = document.querySelector('.block-block-most-popular');
@@ -268,6 +260,7 @@ async function getCache(req, res){
   await client.connect();
   let data = await client.get(req.params.cacheName);
   res.status(200).send(data);
+  await client.disconnect();
 }
 
 async function storeRedis(key, val){
